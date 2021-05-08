@@ -1,0 +1,816 @@
+@charset "utf-8";
+/* CSS Document for Myra Train */
+
+/*---Global---*/
+/*{margin:0;padding:0}*/
+
+#Container {
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	background-color:#fff;
+	z-index:1;	
+	}
+	
+/*-------------------------Program #1 Login.php (login)----------------------------------------*/
+#LogIn_Window {
+	width:325px;
+	height:160px; 
+	top:180px;
+	left:320px;
+	position:absolute;	
+	background-color:#F2FEFF;
+	border:1px solid #9CF; 
+	border-radius:5px; 
+	-moz-border-radius:5px; 
+	-webkit-border-radius:5px; 
+	border-bottom:1px solid #aaa;
+ 	-webkit-box-shadow:5px 10px 10px -5px rgba(0,0,0,0.4);  
+  	-moz-box-shadow:5px 10px 10px -5px rgba(0,0,0,0.4);  
+	box-shadow:5px 10px 10px -5px rgba(0,0,0,0.4);	
+}
+
+h1{
+	font-family:Tahoma, Geneva, sans-serif;
+	margin-left:35px;
+	margin-right:40px;
+	padding-bottom:2px;
+	padding-top:5px;
+	font-size:14px;
+	font-weight:600;
+	color:#069;
+	border-bottom:solid 1px blue;
+}
+
+#LogIn_Fill ul {
+	padding-top:0px;
+	padding-right:35px;
+	padding-left:35px;
+	padding-bottom:5px;	
+}
+#LogIn_Fill ul li {
+	padding-bottom:10px;
+	padding-top:0px;
+	text-align:left;
+	list-style-type:none;
+}
+.User_Id {
+	color:#057777; 
+	width:240px; 
+	height:24px; 
+	font-size:12px; 
+	text-indent:32px; 
+	padding-right:6px; 
+	border:1px solid #9CF; 
+	border-radius:5px; 
+	border-radius:5px; 
+	background:url(../images/user-s.png) no-repeat left; 
+	background-color:#F9FFEA;
+}
+.User_PWd {
+	color:#057777; 
+	width:240px; 
+	height:24px; 
+	font-size:12px; 
+	text-indent:32px; 
+	padding-right:6px; 
+	border:1px solid #9CF; 
+	border-radius:5px; 
+	border-radius:5px; 
+	background:url(../images/lock.png) no-repeat left; 
+	background-color:#F9FFEA;
+}
+.Submit_Button {
+	float:left;
+	background-color:blue;
+	color:white;
+	-webkit-border-radius:5px; 
+}
+.Forget_Password_Buttion {
+	float:right;
+	border:none;
+	margin-top:-5px;
+	background: #F2FEFF;
+	Color:#9ECFCF;
+}
+
+/*------------------Program #2.1 Home.php  ( home menu screen)------------------------------------*/
+#Title {
+	width:100%;
+	min-width: 1024px;
+	height:76px;
+	background-color:#ebf4fd;
+	margin-top:5px;
+	z-index:2;
+}
+
+#MyraTrain_Logo {
+	float:left;
+	width:150px;
+	height:76px;
+	font-family:Times New Roman, Times, serif;   
+	color:#066;
+	font-size:28px;
+	font-weight:600;
+	position:absolute;
+	margin-left:5px;
+	text-align:center;
+	margin-top:-25px;
+	z-index:3;
+	}
+
+#Main_Menu {
+	left:150px;
+	width:auto;
+	min-width:874px;
+	position:absolute;
+	padding-top:4px;
+	overflow-x:hidden;
+	color:#066;
+	font-size:14px;
+	text-decoration:none;
+	z-index:3;
+}
+
+#Main_Menu ul {
+	width:100%;
+	margin-top:10px;
+	margin-left:-15px;
+}
+
+#Main_Menu ul li {
+	float:left;
+	width:150px;
+	list-style-type:none;
+	margin-left: 30px;
+	margin-top:10px;
+	padding-top:5px;
+	padding-bottom:5px;
+	text-align:center;
+}
+#Main_Menu ul li a {
+	font-size:16px;
+	text-decoration:none;
+	padding:3px 10px;
+	color:#066;
+}
+#Main_Menu ul li ul {
+	margin:0;
+	width:15px;
+	height:auto;
+	left:-5px;
+	display:none;
+	}
+	
+#Main_Menu ul li:hover {
+	background-color:#ebf4fd;
+	border:solid thin #C0C0C0; 
+	
+	-webkit-border-radius:5px; 
+	-moz-border-radius:5px; 
+	border-radius:5px; 	
+	
+	-webkit-box-shadow:5px 10px 10px -5px rgba(0,0,0,0.4);  
+  	-moz-box-shadow:5px 10px 10px -5px rgba(0,0,0,0.4);  
+	box-shadow:5px 10px 10px -5px rgba(0,0,0,0.4);
+}
+
+#Main_Menu ul li:hover ul {
+	width:15px;
+	position: relative;
+	display: block;
+	margin-left:-60px;
+	background-color:#FAFAFA; 
+}
+
+#Main_Menu ul li:hover ul li {
+	width:140px;
+	right:150px;
+	background-color:#FAFAFA;
+}
+
+/*----------------------Program #2.2 Home.php (working area + left sub-menu-----------------------*/
+#Working_District{
+	top:76px;
+	left:0px;
+	width: 100%; 
+	height:83%;
+	min-width: 1024px;	/*  overflow: scroll;  */
+	background-color:white; /*white;*/
+	border-top: 1px solid #e4e4e4;
+	font-size: 10pt;
+	z-index:2;
+	}
+	
+#Left_Bar{
+	display:block;
+	float:left;
+	width:221px;
+	height:100%;
+	margin-left:4px;
+	margin-top:5px;
+	background-color:white;
+	z-index:3;
+	}
+#Left_SubMenu {
+	overflow:auto;
+	width:221px;
+	height:55%;
+	background-color:#FAFAFA;
+	border:1px solid #9CF; 	
+	border-right:#09E0E0 dotted 1px; 
+	border-left:#09E0E0 dotted 1px; 
+	border-radius:4px; 
+	-moz-border-radius:4px; 
+	-webkit-border-radius:4px;
+	z-index:4;	
+}
+#Left_Hint {
+	overflow:auto;
+	width:221px;
+	height:40%;
+	margin-top:5px;
+	background-color:#FAFAFA;
+	border:1px solid #9CF; 
+	border-right:#09E0E0 dotted 1px; 
+	border-left:#09E0E0 dotted 1px; 
+	border-radius:4px; 
+	-moz-border-radius:4px; 
+	-webkit-border-radius:4px;
+	z-index:4;	
+}
+		
+#working_Zone{
+	float:left;
+	overflow:hidden;
+	margin-left:4px;
+	padding-bottom:4px;
+	padding-right:25px;
+	float:left;
+	width:75%;
+	height:100%;
+	cursor:pointer;
+	z-index:3;
+	background-color:white;/*#e4e4e4;*/
+	}
+
+#Footer {
+	clear:both;	
+	left:0px;
+	width: 100%;
+	min-width: 980px;
+	height:30px;
+	background: #f2f2f2;
+	border-top: 1px solid #e4e4e4;
+	font-size: 16px;
+	text-align:center;
+	z-index:2;
+	}
+	
+/*-------------------------Program #3 Roadmap.php (roadmap)-------------------------------------*/	
+#Roadmap_HeadTable {
+	text-align:center;
+	width:1315px;
+	font-family: Tahoma, Geneva, sans-serif; 
+	font-size:18px; 
+	text-indent:5px;
+	margin-top:0.1em;	
+	margin-right:30px;			
+}
+
+#HeadTable_FirstBlank {
+	width:100%;
+	line-height:12px; 
+	margin-right:30px;
+}
+
+#Roadmap_HeadTable_Log {
+	width:60%;	
+	color:#069; 
+	font-size:24px;
+	text-indent:0.7em; 
+	text-align:left;
+	vertical-align:bottom;
+}
+
+#Roadmap_HeadTable_Image {
+	width:32px;
+	height:32px;
+	vertical-align:text-bottom;
+}
+
+#Roadmap_HeadTable_Type {
+	font-weight:600; 
+	color:#09F;
+}
+
+#Roadmap_4MajorPhaseTable {	
+	width:1315px;
+	line-height:26px;
+	margin-top:1.0em;			/* this is used to raise the brown delimiter over to title bar*/
+}	
+
+#Roadmap_4MajorPhaseTable_FirstColumn {
+	width:3%;
+}
+
+#Roadmap_4MajorPhaseTable_ImagesColumn {
+	width:97%;
+}
+
+Roadmap_4MajorPhaseTable_Images {
+	height:26.2px;
+}
+
+
+#Roadmap_TaskTables {
+	text-align:center;
+	width:1315px;
+	border:0;
+	padding:0;
+	border-spacing:0;
+	border:solid #15B4FF 1px; 
+	font-family: Tahoma, Geneva, sans-serif; 
+	font-size:12px; 
+	line-height:26px; 
+	text-indent:5px;
+	margin-top:0.1em;
+}
+
+#Roadmap_TaskTables_ShadeLine_FirstColumn {
+	line-height:1px; 
+	width:4%;
+}
+
+#Roadmap_TaskTables_ShadeLine_ImageColumns {
+	line-height:1px; 
+	width:6.2%;
+	background-color:#CCFFCC;
+}
+
+#Row_15PhasesTitle_FirstColumn {
+	border-bottom:solid #C0C0C0 1px; 
+	border-right:solid #C0C0C0 1px;
+}
+
+#Row_15PhasesTitle_LastColumn {
+	text-indent:0.1em;				/* move image to left */
+	border-bottom:solid #C0C0C0 1px;
+}
+
+#Row_15PhasesTitle_CenterColumns {
+	text-indent:0.1em;
+	border-bottom:solid #C0C0C0 1px; 
+	border-right:solid #C0C0C0 1px;
+}
+
+#Roadmap_TaskTables_TeamCell {
+	text-indent:0em; 
+	font-size:10px; 
+	font-weight:600; 
+	border-bottom:solid #C0C0C0 1px; 
+	border-right:solid #C0C0C0 1px; 
+	background-color:#F7F7F7;
+}
+
+#Roadmap_TaskTables_TeamImage {
+	width:36px;					/*original width="28" to zoom team title*/
+	vertical-align:bottom;
+}
+
+#Task_Block {					/* control cell attributes */
+	vertical-align:top; 							/* control task blocks align at the top (before at center) */
+	Margin-top:1px;
+	Margin-bottom:1px;
+	text-indent:0.1em;
+	font-weight:600; 
+	border-right:solid #C0C0C0 1px; 				/* draw borders of cell */
+	border-bottom:solid #C0C0C0 1px; 
+}
+
+.Task_Individual {
+	text-align:center;
+	vertical-align:middle;
+	font-size:12px;
+	border:1px solid #499B33;
+	/*background:#fafafa;*/
+	color:#444;
+	width:60px;
+	height:16px; 		/* ensure height > font-size*/
+	padding-bottom:6px;
+	margin-top:2px;
+	margin-bottom:2px;
+	cursor:default;
+}
+a:visited{text-decoration:none; color:#F63;}
+a:hover{text-decoration:underline; color:#F60; font-weight:600; position:relative; top:1px; cursor:pointer;}
+
+
+#Button_ExitRoadmap, #Button_Dependency_Demo, #GDP_Types { 
+	display:block;
+	float:right;
+	margin-top:16px;
+	margin-right:15px;
+	height:20px;
+	font-size:14px;
+	text-align:center;
+	font-family: Tahoma, Geneva, sans-serif; 
+	vertical-align:middle;
+	color:#FFFFFF;
+	padding: 1px 5px 2px 5px;
+	background-color:rgba(91,173,255,1);
+	border:1px solid #aaa;
+	-moz-border-radius:3px; -webkit-border-radius:3px; border-radius:3px;
+	border-bottom:1px solid #aaa;
+	-moz-box-shadow:inset 0 1px 0 rgba(255,255,255,0.5); -webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,0.5); 	
+	box-shadow:inset 0 1px 0 rgba(255,255,255,0.5);
+	cursor:pointer;
+}
+
+#PDP_Type_Title {
+	margin-top:16px;
+	margin-right:1px;
+	vertical-align:middle;
+	text-align:center;
+}
+/*
+#Button_GeneratePDF { 
+	display:block;
+	float:right;
+	margin-top:16px;
+	margin-right:15px;
+	height:22px;
+	width:114px;
+	font-size:14px;
+
+	font-family: Tahoma, Geneva, sans-serif; 
+	vertical-align:middle;
+	text-align:right;
+	color:black;
+	background-color:white;
+	border:1px solid #aaa;
+	-moz-border-radius:3px; -webkit-border-radius:3px; border-radius:3px;
+	border-bottom:1px solid #aaa;
+	-moz-box-shadow:inset 0 1px 0 rgba(255,255,255,0.5); -webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,0.5); 	
+	box-shadow:inset 0 1px 0 rgba(255,255,255,0.5);
+	cursor:pointer;
+}*/
+
+#Foot_Table {
+	width:1315px;
+	font-family: Tahoma, Geneva, sans-serif; 
+}
+
+
+.PopUP_BG{ 
+	display: none; 
+	position: absolute; 
+	top: 0%; 
+	left: 0%; 
+	width: 100%; 
+	height: 4096px;/*100%; */
+	background-color: black; 
+	z-index:1001; 
+	-moz-opacity: 0.8; 
+	opacity:.80; 
+	filter: alpha(opacity=80); 
+} 
+
+.PopUP_DW{
+	display:none;
+	z-index:1002;
+	top:50%;
+	left:50%;
+	width:1010px;
+	height:560px;
+	margin-left:-500px!important;/*FF IE7 half of width */
+	margin-top:-280px!important;/*FF IE7 half of height */
+	margin-top:0px;
+	background-color: white; 
+	border: 5px solid #DDEEF6;
+	position:fixed!important;/* FF IE7*/
+	position:absolute;/*IE6*/
+	_top:       expression(eval(document.compatMode &&
+				document.compatMode=='CSS1Compat') ?
+				documentElement.scrollTop + (document.documentElement.clientHeight-this.offsetHeight)/2 :/*IE6*/
+				document.body.scrollTop + (document.body.clientHeight - this.clientHeight)/2);/*IE5 IE5.5*/
+}
+
+.Task_PopUP_BG{ 
+	display: none; 
+	position: absolute; 
+	top: 0%; 
+	left: 0%; 
+	width: 100%; 
+	height: 4096px;/*100%; */
+	background-color:black; 
+	z-index:1001; 
+	-moz-opacity: 0.5; 
+	opacity:.50; 
+	filter: alpha(opacity=50); 
+} 
+
+.Task_PopUP_DW{
+	display:none;
+	z-index:1002;
+	top:50%;
+	left:50%;
+	width:810px;
+	height:560px;
+	margin-left:-400px!important;/*FF IE7 half of width */
+	margin-top:-280px!important;/*FF IE7 half of height */
+	margin-top:0px;
+	background-color:#FAFAFA; 
+	border: 5px solid #DDEEF6;
+	position:fixed!important;/* FF IE7*/
+	position:absolute;/*IE6*/
+	_top:       expression(eval(document.compatMode &&
+				document.compatMode=='CSS1Compat') ?
+				documentElement.scrollTop + (document.documentElement.clientHeight-this.offsetHeight)/2 :/*IE6*/
+				document.body.scrollTop + (document.body.clientHeight - this.clientHeight)/2);/*IE5 IE5.5*/
+}
+
+#Task_POP_Grey{						/*a grey zone on top of task pop up window */
+	width:100%; 
+	height:28px; 
+	background-color:#EBF2F5;
+	font-family:Tahoma, Geneva, sans-serif; 
+	margin-top:3px;
+}
+#Task_POP_CloseSign{
+	width:240px; 
+	float:right; 
+	color:#09C; 
+	font-size:12px; 
+	font-weight:600; 
+	text-align:right;
+}
+
+
+/*-------Program #4 PopUp_TaskWindow.php (pop up window when clicked on task block at roadmap environment)----------*/	
+
+#Task_PopUp_Window{
+	align:center;
+	margin-left:0px; 
+	margin-top:12px; 
+	width:100%; 
+	height:auto;    								 /*--224=left Column width--*/
+}
+
+#PopUp_Window_Head{
+    float:left; 
+	margin-left:1.5em;	
+}
+
+.PopUp_Window_Head_Image{
+	width:64px;
+	height:64px;
+	border:none; 
+	vertical-align: middle;			
+}
+
+.PopUp_Window_Head_Title{
+	font-size:14px; 
+	font-weight:600; 
+	color:#09F; 
+	margin-left:0.7em;		
+}
+
+#PopUp_Window_Owner{
+	float:right; 
+	margin-right:1.5em; 
+	padding-top:40px;	
+}
+
+.PopUp_Window_Owner_Title{
+	font-size:12px; 
+	font-weight:500; 
+	color:#066; 
+	margin-right:0.5em;
+}
+
+#PopUp_Window_DataArea_Layout{
+	float:center;									/*--create the outside frame--*/
+	clear:both;
+	margin-top:12px; 		
+	width:774px;											
+	border:solid #15B4FF 1px; 
+}
+	
+
+#PopUp_Window_DataArea_Table{							/*---create the inner frame--*/
+	align:center;
+	width:770px;
+	margin-left:2px;
+	margin-right:2px;										/*--create frame--*/
+	margin-bottom:2px;										/*--create frame--*/
+	margin-top:2px;
+	cellpadding:0;
+	cellspacing:0;
+	border:solid #15B4FF 1px; 
+	font-family: Tahoma, Geneva, sans-serif; 
+	font-size:12px; color:#069; 
+	text-indent:6px; 
+}
+	
+.PopUp_Window_DataArea_Title_BG{
+	color:#066; 
+	line-height:26px;  
+	border-bottom:solid #C0C0C0 1px; 
+	background-color:#EAFEFF;  	
+}
+
+.PopUp_Window_DataArea_Title{
+	font-size:14px; 
+	color:#066; 
+	border-bottom: solid #C0C0C0 1px; 
+	text-indent:1em;	
+}
+
+.PopUp_Window_DataArea_Content{
+	color:#066; 
+	border-right:solid #C0C0C0 1px; 
+	border-bottom: solid #C0C0C0 1px; 
+	text-indent:1em;	
+}
+
+
+/*-------------------Program #5 User_Management.php and Add_User.php------------------------------------*/
+
+#UserList_Page {
+	align:center;
+	margin-left:0px; 
+	margin-top:32px; 			/*224=left Column width*/
+	width:100%;
+}							
+
+#UserList_Table1, #UserList_Table2 {
+	align:center;
+	border:0px;
+	/*cellpadding:0px;
+	cellspacing:0px;*/
+	font-family: Tahoma, Geneva, sans-serif; 
+	font-size:12px; 
+	text-indent:5px;
+	width:1024px;
+}
+	
+#UserList_Table1_Title1, #NewUser_Table1_Title1  {
+	font-size:14px; 
+	color:#069; 
+	text-indent:0.7em;
+}
+
+#UserList_Table1_Title2, #NewUser_Table1_Title2 {
+	height:24px;
+	padding-top:2px; 
+	float:right; 
+	cursor:hand;
+}
+	
+.MyraTrain_Button_Small{ 
+	font:100 12px/18px Tahoma, Geneva, sans-serif; color:#FFFFFF;
+	padding: 1px 5px 2px 5px;
+	/* background:url(overlay.png) repeat-x center #a7dd32; */
+	background-color:rgba(91,173,255,1);
+	border:1px solid #aaa;
+	-moz-border-radius:3px; -webkit-border-radius:3px; border-radius:3px;
+	border-bottom:1px solid #aaa;
+	-moz-box-shadow:inset 0 1px 0 rgba(255,255,255,0.5); -webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,0.5); box-shadow:inset 0 1px 0 rgba(255,255,255,0.5);
+	cursor:pointer;
+}
+.MyraTrain_Button_Small:hover{background-color:rgba(91,173,255,0.6); color:#F60; cursor:pointer;}
+.MyraTrain_Button_Small:active{position:relative;top:1px;}
+
+#UserList_NewUser_Button {
+	height:24px; 
+	width:86px; 
+	background-color:#EAF2EE; 
+	color:#666; 
+	padding-bottom:2px;
+}
+
+#NewUser_BackUserLists_Button {
+	height:24px; 
+	
+	background-color:#EAF2EE; 
+	color:#666; 
+	padding-bottom:2px;	
+}
+
+#UserList_Table2_Title {
+	color:#066; 
+	line-height:28px; 
+	/*--background: url(images/tr_b.png) repeat-x;*/ 
+	border-top:solid #C0C0C0 1px;  
+}
+
+.UserList_Table2_TitleS {
+	font-size:14px; 
+	border-right:solid #C0C0C0 1px;
+	border-bottom:solid #C0C0C0 1px;
+}
+
+.UserList_Table2_FooterPage {
+	hight:24px; 
+	float:left; 
+	padding-left:0.7em; 
+	padding-top:4px; 
+	color:#09c; 
+	font-family: Tahoma, Geneva, sans-serif; 
+	font-size:10px; 
+	font-weight:600;
+}
+
+.UserList_Table2_FooterWith {
+	width:500px; 
+	hight:20px; 
+	float:right; 
+	margin-right:2em;  
+	font-family: Tahoma, Geneva, sans-serif; 
+	font-size:11px;
+}
+
+.UserList_Table2_FooterIcon {
+	float:right; 
+	padding-top:4px;
+}
+
+.UserList_Table2_FooterGoto {
+	float:right; 
+	margin-right:2em; 
+	color:#09c; 
+	padding-top:2px; 
+	font-size:10px; 
+	font-weight:600;
+}
+.UserList_Table2_IconSize {
+	width:18px;
+	height:18px;
+	align:absbottom;
+}
+.UserList_Table2_Bottom {
+	height:4px; 
+	width:100%; 
+	line-height:0; 
+	font-size:0;  
+	padding:0; 
+	clear:both;
+}
+
+
+.UserList_Table2_UserID2 {
+	font-weight:500; 
+	color:#06F; 
+	text-decoration:underline;
+}
+
+/*-----------------------------------Program #6 Add_User.php------------------------------------*/
+
+#AddUser_WebPage {
+	align: center;
+	margin-left:0px; 
+	margin-top:32px; 
+	width:100%;
+}
+
+#NewUser_Table1 {
+	border:0px;
+	font-family: Tahoma, Geneva, sans-serif; 
+	font-size:12px; 
+	text-indent:5px;
+}
+
+#NewUser_Table2 {
+	align: center;
+	width: 1024px;
+	border:0;
+	cellpadding:0;
+	cellspacing:0;
+	line-height:26px;
+	font-family: Tahoma, Geneva, sans-serif; 
+	font-size:12px; 
+	text-indent:5px; 
+	background-color:#EAF2FF; 
+	border:solid #15B4FF 1px;
+}
+
+.NewUser_Table2_DecorationLine {
+	line-height:3px; 
+	background-color:#EAF2FF;
+}
+
+.NewUser_Table2_InputTitle {
+	text-indent:1em; 
+	font-weight:500; 
+	color:#066;
+}
+
+.NewUser_Table2_Bottom {
+	align: center;
+	width: 1024px;
+	background-color:#EAFEFF;
+	border:none;    /*--#15B4FF--*/
+}

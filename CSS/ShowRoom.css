@@ -1,0 +1,2506 @@
+@charset "utf-8";
+/* CSS Document for Myra Train */
+
+/*---Global---*/
+/*{margin:0;padding:0}*/
+
+#Container {
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	background-color:#E5E5E5;
+	z-index:1;	
+	}
+.RdPDM_Button{
+	font:600 12px/24px Tahoma, Geneva, sans-serif; color:#FFFFFF;
+	padding: 2px 5px 3px 5px;
+	/* background:url(overlay.png) repeat-x center #a7dd32; */
+	background-color:rgba(91,173,255,1);
+	border:1px solid #aaa;
+	-moz-border-radius:4px; -webkit-border-radius:4px; border-radius:4px;
+	border-bottom:1px solid #aaa;
+	-moz-box-shadow:inset 0 1px 0 rgba(255,255,255,0.5); -webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,0.5); box-shadow:inset 0 1px 0 rgba(255,255,255,0.5);
+	cursor:pointer;
+}
+.RdPDM_Button:hover{background-color:rgba(91,173,255,0.6); color:#F60; cursor:pointer;}
+.RdPDM_Button:active{position:relative;top:2px;}	
+/*-------------------------Program #1 Index.php (Company website V2.0 and RDPDM public portal)------------------------------*/
+#Web_MainContent {
+	width: 1400px;
+	min-width: 800px;
+	background: white;  /*#c3c3c3;*/
+	border-top: 1px solid #e4e4e4;
+}
+	
+#Web_workingArea {
+	width: 1000px;
+	min-width: 800px;
+	/*min-height: 600px;*/
+	/*padding-top: 20px;*/
+}
+	
+#Web_Navigation {
+	width:100%; 
+	height:96px; 
+	background-color:white;
+	vertical-align:middle; /*bottom*/
+}
+
+#Web_RDQCC_Logo {
+	text-align:center;
+	vertical-align:middle;
+	width:150px; 
+}
+
+
+#Web_Navigation_MainMenu {	 
+	/*width:700px; */
+	min-width:700px; 
+	vertical-align:middle; 
+	padding-left:50px;
+	overflow-x:hidden;
+}
+
+
+.Web_Menu_Button {
+	font-size:20px; 
+	font-family: "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+	margin-left: 20px;
+	color:#333;
+}
+.Trace_Directory {
+	font-size:14px;
+	margin-top:0px;
+	letter-spacing:1.5px;
+	font-family: Tahoma, Geneva, sans-serif;
+	color:cadetblue;
+}
+
+/**
+ * ---------------------------CSS Slider----------------------------------------------------
+ * adapted from https://codepen.io/zuraizm/pen/vGDHl
+**/
+#slider {
+  position: relative;
+  overflow: hidden;
+  margin: 0px auto 0 auto;
+  margin-top:0px;
+  border-radius: 4px;
+  padding:0px;
+}
+
+#slider ul {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  height: 600px;
+  list-style: none;
+}
+
+#slider ul li {
+  position: relative;
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 1400px;
+  text-align: center;
+}
+
+a.control_prev, a.control_next {
+  position: absolute;
+  top: 40%;
+  z-index: 999;
+  display: block;
+  width: auto;
+  height: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 80px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+a.control_prev:hover, a.control_next:hover {
+  opacity: 1;
+  -webkit-transition: all 0.2s ease;
+  position: absolute;
+  top: 40%;
+  z-index: 999;
+  display: block;
+  width: auto;
+  height: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 80px;
+  cursor: pointer;
+}
+
+a.control_prev {
+  border-radius: 0 2px 2px 0;
+}
+
+a.control_next {
+  right: 0;
+  border-radius: 2px 0 0 2px;
+}
+
+.slider_option {
+  position: relative;
+  margin: 10px auto;
+  width: 1400px;
+  font-size: 18px;
+}
+
+#slider ul li h3 {
+  position: absolute;
+  margin-top:30px;
+  margin-left:30px;
+  width: 500px;
+  height: 120px;
+  font-size: 45px;
+  color: #ffffff;
+  line-height: 60px;
+  font-weight:normal;
+  font-family:Arial, sans-serif;
+  text-align:left;
+}
+#slider ul li h4 {
+  position: absolute;
+  margin-top: 425px;
+  margin-left: 30px;
+  width: 480px;
+  height: 120px;
+  font-size: 30px;
+  color: #ffffff;
+  line-height: 38px;
+  font-weight:normal;
+  font-family:Arial, sans-serif;
+  text-align:left;
+}
+
+/*--------slider indicators--*/
+.slider_navigation {
+  display: block;
+  position: absolute;
+  padding-left: 680px;
+  z-index: 999;
+}
+
+.circle {
+  width:14px;
+  height:14px;
+  margin:4px;
+  float: left;
+  background-color: #aaa; 
+  border-radius: 10px;
+  -moz-border-radius:10px;
+  -webkit-border-radius:10px;
+  text-indent: -9999px;
+}
+.circle_active {
+  background-color: dodgerblue;
+}
+.circle_inactive {
+  background-color: black;
+}
+
+/*----------------------------Toggle login--------------------------*/
+#Toggle_Login {
+	width: 250px;
+	vertical-align:middle;
+	padding-bottom: 25px;
+	text-align: right;
+}
+
+#loginDiv {
+	width: 182px;
+	margin-left:2em;
+	font-size:16px; 
+	font-family: "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+	text-align:left;
+	position:absolute;   /*ensure the login has no move when clicked on */
+	/*right: 80px;
+	top: 12px;*/
+	z-index: 100;
+	border: 1px solid navy;
+}
+
+
+ /* for toggle "Login" which is clicked on to display/remove the form */
+#login {
+	margin: 0;
+	cursor: pointer;	
+	background-color: rgb(255,255,255);
+	padding:5px 0 2px 30px;
+	vertical-align: middle;
+}
+
+#login:hover{
+	background-color: rgb(110,138,195);	
+}
+
+
+ /*  plus sign icon for login form */
+.plus {
+background: url(Images/img_open.png) no-repeat 8px 7px;
+background-color: rgb(110,138,195);	
+}
+
+ /* minus sign icon for login form */
+.minus {
+background: url(Images/img_close.png) no-repeat 8px 7px;
+}
+
+
+/*form is hidden when the page loads */
+#loginDiv form {
+/*padding: 10px 10px 10px 10px;*/	
+text-align: center;
+display: none;							/*--none--*/
+background-color: rgb(255,255,255);
+padding-bottom: 4px;	
+}
+
+#loginDiv label {
+display: block;
+width: 100px;
+font-size: 16px;
+margin-left: 15px;
+}
+
+#loginDiv input {
+width: 150px;
+font-size: 16px;
+border: 1px solid navy;
+}
+
+#loginDiv input:focus {					
+background-color: rgb(110,138,195);
+width:150px;
+font-size:14px;
+border: 2px solid navy;
+}
+
+#loginDiv input[type=submit] {
+width: 75px;
+font-size:14px;
+margin-left:15px;
+}
+
+/*---------------------form for RDPDM public portal -------------------------*/
+
+.publicPortal_Head1 {
+	font-size:26px; 
+	font-family: "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+	color:#333;
+}
+
+.publicPortal_Head2 {
+	font-size:20px; 
+	font-family: "Helvetica Neue", "Helvetica", "Arial", "sans-serif";
+	color:#333;
+}
+
+.publicPortal_Head3 {	
+	text-align:left; 
+	padding-left:5px;
+}
+
+
+/*------------for the rest webpages-----------------------------*/
+
+.Web_Head1 {	
+	font-size:18px;
+	color:#06BEC7;
+	line-height:20px; 
+	text-align:left; 
+	font-family:museo-sans,Helvetica, Arial, Verdana, sans-serif;
+	}
+
+.Web_Text1 {
+	font-size:16px; 
+	color:#333333; 
+	line-height: 1.4; 
+	text-align:left; 
+	font-family:museo-sans,Helvetica, Arial, Verdana, sans-serif;
+}
+
+.Web_HeadTestimonial {	
+	font-size:18px; 
+	color:#06BEC7; 
+	line-height:1.4; 
+	text-align:left; 
+	font-family:museo-sans,Helvetica, Arial, Verdana, sans-serif;	
+	font-style: italic;	
+}
+
+
+.Web_TextTestimonial {
+	text-align:right;	
+	line-height: 0.3;
+	font-size:16px; 
+	color:#333333; 
+	/*line-height: 1.4; */	
+	font-family:museo-sans,Helvetica, Arial, Verdana, sans-serif;	
+}
+
+.Web_ParaSpace {
+line-height: 0.5;	
+}
+
+#Web_LeftArea {
+	float:left; 
+	width:250px;
+}
+
+#Web_LeftArea ul {
+	/*--width:100%;*/
+	font-size:16px;
+	margin-top:20px;
+	/*margin:0 0 0 30px;*/
+}
+
+#Web_LeftArea ul li {
+	width:200px;
+	/*list-style-type:none;*/
+	border:none; 
+	/*border-color:#ccc;*/
+	margin-top:10px;
+	padding-top:5px;
+	padding-bottom:5px;
+	text-align:left;
+}
+
+#Web_LeftArea ul li a {
+	font-family:museo-sans,Helvetica, Arial, Verdana, sans-serif;
+	font-size:16px;
+	color:#F48022;
+	text-decoration:none;
+	/*padding:3px 10px;*/
+}
+
+#WebContact_RightArea {
+	float:left; 
+	width:400px; 
+	height:750px;  
+	background-color:#ffffff; 
+	padding-left:40px; 
+	border-left:1px solid #E5E5E5;
+}
+
+#WebContact_LeftMessage {
+	float:left;  
+	width:400px; 
+	height:750px; 
+	text-align:center; 
+	background-color:#ffffff;
+} 
+
+#WebProduct1_RightArea, #WebProduct2_RightArea {
+	float:left; 
+	width:700px; 
+	padding-left:20px; 
+	border-left:1px solid #E5E5E5;
+}
+
+
+.Web_Photo {
+    float: left;
+   padding: 0 20px 0 0;
+}
+
+.Web_Photo img {
+    display: block;
+	height: 180px;
+    /*width:250px;*/
+    /*border: solid 5px #069;*/
+    align-self: center;
+}
+
+.Web_EventPhoto {
+	float: left;
+   padding: 0 20px 0 0;
+}
+
+.Web_EventPhoto img {
+    display: block;
+	/*height: 180px;*/
+    width:250px;
+    /*border: solid 5px #069;*/
+    align-self: center;
+}
+
+#Contact_NewInquires {
+	width: 350px;
+	border:0;
+	line-height:30px;
+	font-family: museo-sans,Helvetica, Arial, Verdana, sans-serif; 
+	font-size:14px; 
+	/*text-indent:5px; */
+	background-color:#EAF2FF; 
+	border:solid #15B4FF 1px;
+}
+
+.Contact_InquiresTitle {
+	text-indent:1em; 
+	/*font-weight:500; */
+	color:#0819A2;
+}
+
+.Contact_InquiresTitleTd {
+	text-align:left; 
+	vertical-align: middle;
+}
+
+	
+.Contact_NewInquires_Bottom {
+	align: center;
+	width: 350px;
+	background-color:#EAF2FF; 
+	border:none;    /*--#15B4FF--*/
+}
+	
+#Bottom_Bar {
+	width:100%; 
+	width: 1000px;
+	min-width: 800px;
+	margin: 0px auto 0 auto;
+	/*background-color:#E5E5E5;*/
+	vertical-align:bottom;
+	height:29px;
+	/*border-top: 1px solid #e4e4e4;
+	border-bottom: 1px solid #e4e4e4;*/
+	text-align: center;
+	}
+	
+.Footer_Words {
+	font-size:16px;
+	color:black;
+	}
+
+
+
+/*------------------Program #2 Home.php  ( home menu and navigation screen)--------------------------------*/
+
+
+#Home_Navigation {
+	width:100%; 
+	height:76px; 
+	background-color:#ebf4fd; 
+	padding-top:16px;
+}
+
+#Home_MyraTrain_Logo {
+	float:left; 
+	margin-left:12px; 
+	width:90px; 
+	padding-top:8px;
+}
+
+.Home_MyraTrain_Title {
+	font-family:Times New Roman, Times, serif; 
+	color:#066; 
+	font-size:28px; 
+	font-weight:600; 
+	vertical-align:baseline;
+	text-decoration:none;
+}
+
+#Home_Navigation_MainMenu {
+	float:left; 		 
+	width:495px; 
+	min-width:210px; 
+	padding-left:150px; /*--48-uses to move navigationn to left/right-*/
+	padding-top:4px; 
+	overflow-x:hidden;
+}
+
+#Home_FirstLevel_Menu {
+	padding:4px;   /*---4px---*/
+	width:490px;
+}
+
+.Home_Menu_Button {
+	font-size:14px; 
+	color:#066;
+}
+
+#Home_Seaching {
+	color:#057777; 
+	width:280px;
+	height:32px; 
+	font-size:12px; 
+	padding-left:12px; 
+	padding-right:12px; 
+	border:1px solid #9CF; 
+	border-radius:5px; 
+	-moz-border-radius:5px; 
+	-webkit-border-radius:5px; 
+	background-color:#F3FEFD;
+}
+
+.Home_SignOut {
+	vertical-align:middle; 
+	margin-left:2em;
+}
+
+.Home_Main_Content{
+	position: absolute;	
+	top:73px;			/*<!--73-->*/
+	bottom:0px;		/*<!--41-->*/
+	left: 0;
+	right: 0;
+	width: auto; 
+	height:auto;
+	min-width: 1024px;	/*  overflow: scroll;  */
+	background: #c3c3c3;
+	border-top: 1px solid #e4e4e4;
+	font-size: 10pt;
+	}
+	
+#Home_LeftSection {
+	display:block; 
+	width:221px; 
+	height:100%; 
+	float:left; 
+	padding:4px; 
+	cursor:pointer; 
+	border-right:#09E0E0 dotted 1px; 
+	border-left:#09E0E0 dotted 1px; 
+	border-radius:4px; 
+	-moz-border-radius:4px; 
+	-webkit-border-radius:4px; 
+	background-color:#F7FEFD; 
+	margin-top:0; 
+	margin-bottom:0; 
+	position:absolute;
+}
+
+
+#Home_LeftHint, Home_LeftMenu, #Home_LeftAll {
+	background-color:#F7FEFD; 
+	overflow:auto;
+}
+
+#Home_RightSection {
+	margin:0 auto; 
+	margin-left:235px; /*224px*/
+	padding-left:8px; 
+	width:100%; 
+	/*height:100%;    because we want to put footer within the area*/ 
+	background-color:#F8F8F8;   /*#FFFFFF*/
+	position:absolute;
+	top:0px;
+	bottom:30px;
+}
+
+#Home_RightSection_Main {					
+	width:1180px; /*1080*/
+	height:100%;
+	margin-left: 1px; /* 1px -224px use to control location of the display in working area to left/right*/
+	overflow:hidden;
+}
+
+.Home_Bottom_Bar {
+	/*clear:both;*/	
+	width: 100%;
+	min-width: 800px;
+	height:29px;
+	background-color: #f2f2f2;
+	border-top: 1px solid #e4e4e4;
+	border-bottom: 1px solid #e4e4e4;
+	margin-top:1px;
+	margin-bottom:0px;
+	margin-left:-8px;
+    text-align: center;
+	}
+	
+/*	width:100%; 
+	width: 1000px;
+	min-width: 800px;
+	margin: 0px auto 0 auto;
+	background-color:#E5E5E5;
+	vertical-align:bottom;
+	height:29px;
+	border-top: 1px solid #e4e4e4;
+	border-bottom: 1px solid #e4e4e4;
+	text-align: center;*/
+
+.Home_Footer_Words {
+	font-size:16px;
+	color:black;
+	}
+
+/* for zoom pop up notice */
+.modal-pop {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 2000; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content-pop {
+	position: relative;
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%; /* Could be more or less, depending on screen size */
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+.modal-content-pop p {
+margin-top:10px; 
+text-align:center;	
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top: -300px; opacity: 0} 
+    to {top: 0; opacity: 1}
+}
+
+@keyframes animatetop {
+    from {top: -300px; opacity: 0}
+    to {top: 0; opacity: 1}
+}
+
+
+/* The Close Button */
+.close-pop {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+	position:absolute;
+	top:0;
+	right:0;
+}
+
+.close-pop:hover,
+.close-pop:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+/*-------------------------Program #3 QualityRoadmap.php & ProjectRoadmap.php------------------------------------*/	
+#Roadmap_Container {
+	position: absolute;
+	margin:auto;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	width:1315px;
+	background-color:#fff;
+	}
+	
+#Roadmap_HeadTable {
+	text-align:center;	/*center*/
+	/*table-layout:fixed;*/
+	width:1315px;
+	font-family: Tahoma, Geneva, sans-serif; 
+	font-size:18px; 
+	/*text-indent:5px;*/
+	/*margin-top:0.1em;	*/
+	/*margin-right:30px;*/			
+}
+
+#HeadTable_FirstBlank {
+	width:100%;
+	line-height:12px; 
+	margin-right:30px;
+}
+
+#Roadmap_HeadTable_Log {
+	width:60%;	
+	color:#069; 
+	font-size:24px;
+	text-indent:0.7em; 
+	text-align:left;
+	vertical-align:bottom;
+}
+
+#Roadmap_HeadTable_Image {
+	width:32px;
+	height:32px;
+	vertical-align:text-bottom;
+}
+
+#Roadmap_HeadTable_Type {
+	font-weight:600; 
+	color:#09F;
+}
+
+#Roadmap_4MajorPhaseTable {	
+	width:1315px;
+	line-height:26px;
+	margin-top:1.0em;			/* this is used to raise the brown delimiter over to title bar*/
+}	
+
+#Roadmap_4MajorPhaseTable_FirstColumn {
+	width:3%;
+}
+
+#Roadmap_4MajorPhaseTable_ImagesColumn {
+	width:97%;
+}
+
+Roadmap_4MajorPhaseTable_Images {
+	height:26.2px;
+}
+
+
+#Roadmap_TaskTables {
+	text-align:center;
+	width:1315px;
+	border:0;
+	padding:0;
+	border-spacing:0;
+	border:solid #15B4FF 1px; 
+	font-family: Tahoma, Geneva, sans-serif; 
+	font-size:12px; 
+	line-height:26px; 
+	text-indent:5px;
+	margin-top:0.1em;
+}
+
+#Roadmap_TaskTables_ShadeLine_FirstColumn {
+	line-height:1px; 
+	width:4%;
+}
+
+#Roadmap_TaskTables_ShadeLine_ImageColumns {
+	line-height:1px; 
+	width:6.2%;
+	background-color:#CCFFCC;
+}
+
+#Row_15PhasesTitle_FirstColumn {
+	border-bottom:solid #C0C0C0 1px; 
+	border-right:solid #C0C0C0 1px;
+}
+
+#Row_15PhasesTitle_LastColumn {
+	text-indent:0.1em;				/* move image to left */
+	border-bottom:solid #C0C0C0 1px;
+}
+
+#Row_15PhasesTitle_CenterColumns {
+	text-indent:0.1em;
+	border-bottom:solid #C0C0C0 1px; 
+	border-right:solid #C0C0C0 1px;
+}
+
+#Roadmap_TaskTables_TeamCell {
+	text-indent:0em; 
+	font-size:10px; 
+	font-weight:600; 
+	border-bottom:solid #C0C0C0 1px; 
+	border-right:solid #C0C0C0 1px; 
+	background-color:#F7F7F7;
+}
+
+#Roadmap_TaskTables_TeamImage {
+	width:36px;					/*original width="28" to zoom team title*/
+	vertical-align:bottom;
+}
+
+#Task_Block {					/*Task_Block: control cell attributes */
+	vertical-align:top; 							/* control task blocks align at the top (before at center) */
+	Margin-top:1px;
+	Margin-bottom:1px;
+	text-indent:0.1em;
+	font-weight:600; 
+	border-right:solid #C0C0C0 1px; 				/* draw borders of cell */
+	border-bottom:solid #C0C0C0 1px; 
+}
+
+.Task_Individual {				
+	text-align:center;
+	vertical-align:middle;
+	font-size:12px;
+	border:1px solid #499B33;
+	/*background:#fafafa;*/
+	color:#444;
+	width:60px;
+	height:16px; 		/* ensure height > font-size*/
+	padding-bottom:6px;
+	margin-top:2px;
+	margin-bottom:2px;
+	cursor:default;
+}
+a:visited{text-decoration:none; color:#F63;}
+a:hover{text-decoration:underline; color:#F60; font-weight:600; position:relative; top:1px; cursor:pointer;}
+
+
+#Button_ExitRoadmap, #Button_Dependency_Demo, #GDP_Types { 
+	display:block;
+	float:right;
+	margin-top:16px;
+	margin-right:15px;
+	height:20px;
+	font-size:14px;
+	text-align:center;
+	font-family: Tahoma, Geneva, sans-serif; 
+	vertical-align:middle;
+	color:#FFFFFF;
+	padding: 1px 5px 2px 5px;
+	background-color:rgba(91,173,255,1);
+	border:1px solid #aaa;
+	-moz-border-radius:3px; -webkit-border-radius:3px; border-radius:3px;
+	border-bottom:1px solid #aaa;
+	-moz-box-shadow:inset 0 1px 0 rgba(255,255,255,0.5); -webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,0.5); 	
+	box-shadow:inset 0 1px 0 rgba(255,255,255,0.5);
+	cursor:pointer;
+}
+
+#PDP_Type_Title {
+	margin-top:16px;
+	margin-right:1px;
+	vertical-align:middle;
+	text-align:center;
+}
+/*
+#Button_GeneratePDF { 
+	display:block;
+	float:right;
+	margin-top:16px;
+	margin-right:15px;
+	height:22px;
+	width:114px;
+	font-size:14px;
+
+	font-family: Tahoma, Geneva, sans-serif; 
+	vertical-align:middle;
+	text-align:right;
+	color:black;
+	background-color:white;
+	border:1px solid #aaa;
+	-moz-border-radius:3px; -webkit-border-radius:3px; border-radius:3px;
+	border-bottom:1px solid #aaa;
+	-moz-box-shadow:inset 0 1px 0 rgba(255,255,255,0.5); -webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,0.5); 	
+	box-shadow:inset 0 1px 0 rgba(255,255,255,0.5);
+	cursor:pointer;
+}*/
+
+#Foot_Table {
+	width:1315px;
+	font-family: Tahoma, Geneva, sans-serif; 
+}
+
+
+.PopUP_BG{ 
+	display: none; 
+	position: absolute; 
+	top: 0%; 
+	left: 0%; 
+	width: 100%; 
+	height: 4096px;/*100%; */
+	background-color: black; 
+	z-index:1001; 
+	-moz-opacity: 0.8; 
+	opacity:.80; 
+	filter: alpha(opacity=80); 
+} 
+
+.PopUP_DW{
+	display:none;
+	z-index:1002;
+	top:50%;
+	left:50%;
+	width:1010px;
+	height:560px;
+	margin-left:-500px!important;/*FF IE7 half of width */
+	margin-top:-280px!important;/*FF IE7 half of height */
+	margin-top:0px;
+	background-color: white; 
+	border: 5px solid #DDEEF6;
+	position:fixed!important;/* FF IE7*/
+	position:absolute;/*IE6*/
+	_top:       expression(eval(document.compatMode &&
+				document.compatMode=='CSS1Compat') ?
+				documentElement.scrollTop + (document.documentElement.clientHeight-this.offsetHeight)/2 :/*IE6*/
+				document.body.scrollTop + (document.body.clientHeight - this.clientHeight)/2);/*IE5 IE5.5*/
+}
+
+.Task_PopUP_BG{ 
+	display: none; 
+	position: absolute; 
+	top: 0%; 
+	left: 0%; 
+	width: 100%; 
+	height: 4096px;/*100% */
+	background-color:black; 
+	z-index:1001; 
+	-moz-opacity: 0.5; 
+	opacity:.50; 
+	filter: alpha(opacity=50); 
+} 
+
+.Task_PopUP_DW{
+	display:none;
+	z-index:1002;
+	top:50%;
+	left:50%;
+	width:810px;
+	height:560px;
+	margin-left:-400px!important;/*FF IE7 half of width */
+	margin-top:-280px!important;/*FF IE7 half of height */
+	margin-top:0px;
+	background-color:#FAFAFA; 
+	border: 5px solid #DDEEF6;
+	position:fixed!important;/* FF IE7*/
+	position:absolute;/*IE6*/
+	_top:       expression(eval(document.compatMode &&
+				document.compatMode=='CSS1Compat') ?
+				documentElement.scrollTop + (document.documentElement.clientHeight-this.offsetHeight)/2 :/*IE6*/
+				document.body.scrollTop + (document.body.clientHeight - this.clientHeight)/2);/*IE5 IE5.5*/
+}
+
+#Task_POP_Grey{						/*a grey zone on top of task pop up window */
+	width:100%; 
+	height:28px; 
+	background-color:#EBF2F5;
+	font-family:Tahoma, Geneva, sans-serif; 
+	margin-top:3px;
+}
+#Task_POP_CloseSign{
+	width:240px; 
+	float:right; 
+	color:#09C; 
+	font-size:12px; 
+	font-weight:600; 
+	text-align:right;
+}
+	/*--for version 2.0 Myratrain------*/
+.Select_ButtonSpace{	
+	text-align:right; 
+	background-color:#FFF; 
+	width:95%;
+}
+.Select_ButtonTitle{
+	text-align:right; 
+	font-weight:200; 
+	font-size:16px; 
+	color:blue;
+}
+
+/* below is for popup search that shows the text "Search" which is clicked on to display/remove the form */
+#Popup_Hint {
+	 width: 150px;
+	 position:absolute;
+	 right: 5px;
+	 top: 5px;
+	  z-index: 100;
+	 border: 1px solid navy;
+	 text-align:left;
+}
+
+#Popup_Search {
+	 width: 150px;
+	 position:absolute;
+	 right: 180px;
+	 top: 5px;
+	  z-index: 100;
+	 /*border: 1px solid navy;*/
+	 text-align:left;
+	 margin-right:50px;
+	 background-color: rgb(255,255,255);
+	 /* position:relative;*/
+}
+.Search_Magnifier {
+	width:70%; 
+	background:url(../Images/search.png) no-repeat right;
+	margin-bottom:2px;
+	padding-right:5px;
+}
+
+
+#ProjectRoadmap_HintTitle {
+	margin: 0;
+	cursor: pointer;
+	background-color: rgb(255,255,255);
+	padding: 1px 0 1px 25px;				/* left:2px is too short and hide the plus/minus signs*/
+	font-size:13px;
+	font-family:Arial,sans-serif; 
+}
+
+#ProjectRoadmap_HintTitle:hover{
+	background-color:#97FFB1; /* rgb(110,138,195);	*/
+	font-weight:600;
+	font-family:Arial,sans-serif; 
+}
+
+
+ /*  plus sign icon for login form */
+.plus {
+	background: url(../Images/img_open.png) no-repeat 1px 1px; /*8px 7px*/
+	background-color: rgb(110,138,195);	
+}
+
+ /* minus sign icon for login form */
+.minus {
+	background: url(../Images/img_close.png) no-repeat 1px 1px;
+	background-color:#97FFB1;
+}
+
+
+/*form is hidden when the page loads */
+#Popup_Hint form {
+	        /*padding: 10px 10px 10px 10px;       	
+			background-color: rgb(255,255,255);						/*--none--*/
+			background-color:#F7FEFD; 
+			overflow:auto;
+			display:none;
+}
+
+#ProjectRoadmap_HintContent {
+	/*line-height:130%; */
+	padding-left:3px;
+	font-size:12px;
+}
+
+/*-------Program #4 QualityPopUp.php & ProjectPopUp.php (pop up window when clicked on a task block)----------*/	
+
+#Task_PopUp_Window{
+	align:center;
+	margin-left:0px; 
+	margin-top:12px; 
+	width:100%; 
+	height:auto;    								 /*--224=left Column width--*/
+}
+
+#PopUp_Window_Head{
+    float:left; 
+	margin-left:1.5em;	
+}
+
+.PopUp_Window_Head_Image{
+	width:64px;
+	height:64px;
+	border:none; 
+	vertical-align: middle;
+	margin-bottom: 1px;
+}
+
+.PopUp_Window_Head_Title{
+	font-size:14px; 
+	font-weight:600; 
+	color:#09F; 
+	margin-left:0.7em;		
+}
+
+#PopUp_Window_Owner{
+	float:right; 
+	margin-right:1.5em; 
+	padding-top:40px;	
+}
+
+.PopUp_Window_Owner_Title{
+	font-size:12px; 
+	font-weight:500; 
+	color:#066; 
+	margin-right:0.5em;
+}
+
+#PopUp_Window_DataArea_Layout{
+	float:center;									/*--create the outside frame--*/
+	clear:both;
+	margin-top:12px; 		
+	width:774px;											
+	border:solid #15B4FF 1px; 
+}
+	
+
+#PopUp_Window_DataArea_Table{							/*---create the inner frame--*/
+	align:center;
+	width:770px;
+	margin-left:2px;
+	margin-right:2px;										/*--create frame--*/
+	margin-bottom:2px;										/*--create frame--*/
+	margin-top:2px;
+	cellpadding:0;
+	cellspacing:0;
+	border:solid #15B4FF 1px; 
+	font-family: Tahoma, Geneva, sans-serif; 
+	font-size:12px; color:#069; 
+	text-indent:6px; 
+}
+
+#PopUp_Window_DataArea_Table_Embed{							/*---create the inner frame--*/
+	align:center;
+	width:770px;
+	margin-left:2px;
+	margin-right:2px;										/*--create frame--*/
+	margin-bottom:2px;										/*--create frame--*/
+	margin-top:2px;
+	cellpadding:0;
+	cellspacing:0;
+	/* border:solid #15B4FF 1px; */
+	font-family: Tahoma, Geneva, sans-serif; 
+	font-size:12px; color:#069; 
+	text-indent:6px; 
+}
+	
+.PopUp_Window_DataArea_Title_BG{
+	color:#066; 
+	line-height:26px;  
+	border-bottom:solid #C0C0C0 1px; 
+	/*border-top: solid #C0C0C0 1px;		/*--new added for pop-projecttask.php---*/
+	background-color:#EAFEFF;  	
+}
+
+.PopUp_Window_DataArea_Title{
+	font-size:14px; 
+	color:#066; 
+	border-bottom: solid #C0C0C0 1px; 
+	/*border-top: solid #C0C0C0 1px;		/*--new added for pop-projecttask.php---*/
+	text-indent:1em;	
+}
+
+.PopUp_Window_DataArea_Content{
+	color:#066; 
+	border-right:solid #C0C0C0 1px; 
+	border-bottom: solid #C0C0C0 1px; 
+	text-indent:1em;	
+}
+/*
+.Save_Button{ 
+	font:100 12px/18px Tahoma, Geneva, sans-serif; color:#FFFFFF;
+	margin-top: 4px;
+	padding: 1px 5px 2px 5px;   /*1px 5px 2px 5px*/
+	/* background:url(overlay.png) repeat-x center #a7dd32; 
+	background-color:rgba(91,173,255,1);
+	border:1px solid #aaa;
+	-moz-border-radius:3px; -webkit-border-radius:3px; border-radius:3px;
+	border-bottom:1px solid #aaa;
+	-moz-box-shadow:inset 0 1px 0 rgba(255,255,255,0.5); -webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,0.5); box-shadow:inset 0 1px 0 rgba(255,255,255,0.5);
+	cursor:pointer;
+}
+.Save_Button:hover{background-color:rgba(91,173,255,0.6); color:#F60; cursor:pointer;}
+.Save_Button:active{position:relative;top:1px;}*/
+
+
+/*-------------------Program #5 UserManagement.php--------------------------------------------*/
+
+#UserList_Page {
+	align:center;
+	margin-left:0px; 
+	margin-top:32px; 			/*224=left Column width*/
+	width:100%;
+}							
+
+#UserList_Table1, #UserList_Table2 {
+	align:center;
+	border:0px;
+	/*cellpadding:0px;
+	cellspacing:0px;*/
+	font-family: Tahoma, Geneva, sans-serif; 
+	font-size:12px; 
+	text-indent:5px;
+	width:1024px;
+}
+	
+#UserList_Table1_Title1, #NewUser_Table1_Title1  {
+	font-size:14px; 
+	color:#069; 
+	text-indent:0.7em;
+}
+
+#UserList_Table1_Title2, #NewUser_Table1_Title2 {
+	height:24px;
+	padding-top:2px; 
+	float:right; 
+	cursor:hand;
+}
+	
+.MyraTrain_Button_Small{ 
+	font:100 12px/18px Tahoma, Geneva, sans-serif; color:#FFFFFF;
+	padding: 1px 5px 2px 5px;
+	/* background:url(overlay.png) repeat-x center #a7dd32; */
+	background-color:rgba(91,173,255,1);
+	border:1px solid #aaa;
+	-moz-border-radius:3px; -webkit-border-radius:3px; border-radius:3px;
+	border-bottom:1px solid #aaa;
+	-moz-box-shadow:inset 0 1px 0 rgba(255,255,255,0.5); -webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,0.5); box-shadow:inset 0 1px 0 rgba(255,255,255,0.5);
+	cursor:pointer;
+}
+.MyraTrain_Button_Small:hover{background-color:rgba(91,173,255,0.6); color:#F60; cursor:pointer;}
+.MyraTrain_Button_Small:active{position:relative;top:1px;}
+
+#UserList_NewUser_Button {
+	height:24px; 
+	width:86px; 
+	background-color:#EAF2EE; 
+	color:#666; 
+	padding-bottom:2px;
+}
+
+#NewUser_BackUserLists_Button {
+	height:24px; 
+	
+	background-color:#EAF2EE; 
+	color:#666; 
+	padding-bottom:2px;	
+}
+
+#UserList_Table2_Title {
+	color:#066; 
+	line-height:28px; 
+	/*--background: url(images/tr_b.png) repeat-x;*/ 
+	border-top:solid #C0C0C0 1px;  
+}
+
+.UserList_Table2_TitleS {
+	font-size:14px; 
+	border-right:solid #C0C0C0 1px;
+	border-bottom:solid #C0C0C0 1px;
+}
+
+.UserList_Table2_FooterPage {
+	hight:24px; 
+	float:left; 
+	padding-left:0.7em; 
+	padding-top:4px; 
+	color:#09c; 
+	font-family: Tahoma, Geneva, sans-serif; 
+	font-size:10px; 
+	font-weight:600;
+}
+
+.UserList_Table2_FooterWith {
+	width:500px; 
+	hight:20px; 
+	float:right; 
+	margin-right:2em;  
+	font-family: Tahoma, Geneva, sans-serif; 
+	font-size:11px;
+}
+
+.UserList_Table2_FooterIcon {
+	float:right; 
+	padding-top:4px;
+}
+
+.UserList_Table2_FooterGoto {
+	float:right; 
+	margin-right:2em; 
+	color:#09c; 
+	padding-top:2px; 
+	font-size:10px; 
+	font-weight:600;
+}
+.UserList_Table2_IconSize {
+	width:18px;
+	height:18px;
+	align:absbottom;
+}
+.UserList_Table2_Bottom {
+	height:4px; 
+	width:100%; 
+	line-height:0; 
+	font-size:0;  
+	padding:0; 
+	clear:both;
+}
+
+
+.UserList_Table2_UserID2 {
+	font-weight:500; 
+	color:#06F; 
+	text-decoration:underline;
+}
+
+/*-----------------------------------Program #6 UserAdd.php------------------------------------*/
+
+#AddUser_WebPage {
+	align: center;
+	margin-left:0px; 
+	margin-top:32px; 
+	width:100%;
+}
+
+#NewUser_Table1 {
+	border:0px;
+	font-family: Tahoma, Geneva, sans-serif; 
+	font-size:12px; 
+	text-indent:5px;
+}
+
+#NewUser_Table2 {
+	align: center;
+	width: 1024px;
+	border:0;
+	cellpadding:0;
+	cellspacing:0;
+	line-height:26px;
+	font-family: Tahoma, Geneva, sans-serif; 
+	font-size:12px; 
+	text-indent:5px; 
+	background-color:#EAF2FF; 
+	border:solid #15B4FF 1px;
+}
+
+.NewUser_Table2_DecorationLine {
+	line-height:3px; 
+	background-color:#EAF2FF;
+}
+
+.NewUser_Table2_InputTitle {
+	text-indent:1em; 
+	font-weight:500; 
+	color:#066;
+}
+
+.NewUser_Table2_Bottom {
+	align: center;
+	width: 1024px;
+	background-color:#EAF2FF; 
+	border:none;    /*--#15B4FF--*/
+}
+
+/*-----------------------------------Program #7 FeedbackAdd.php------------------------------------*/
+/*--all CSSs here is using the same from above Program #6 UserAdd.php------------------------------*/
+
+
+/*-----------------------------------Program #8 FeedbackManagement.php------------------------------*/
+/*--all CSSs here is using the same from above Program #5 UserManagement.php------------------------*/
+
+
+/*-----------------------------------Program #11 Hint_*.php and SubMenu_*.php-------------------------*/
+.Hint {
+	position: fixed;
+	left: 0;	 
+	height:245px;						/*320*/
+	width: 92.5%;						
+	border:solid thin #C0C0C0; 	
+	-webkit-border-radius:5px; 
+	-moz-border-radius:5px; 
+	border-radius:5px; 	
+ 	-webkit-box-shadow:5px 10px 10px -5px rgba(0,0,0,0.4);  
+  	-moz-box-shadow:5px 10px 10px -5px rgba(0,0,0,0.4);  
+	box-shadow:5px 10px 10px -5px rgba(0,0,0,0.4);	
+	
+	font-family:Arial,sans-serif; 
+	margin-top:5px; 
+	padding:10px 5px 10px 5px; 
+	overflow-x:hidden; 
+	overflow-y:auto;
+	background-color:#F7FEFD;
+}
+
+.Hint_Title {
+	font-family:Arial,sans-serif; 
+	height:32px; 
+	background-color:#97FFB1; 
+	color:#066; font-size:18px; 
+	font-weight:600; 
+	padding:3px; 
+	padding-top:8px;
+}
+
+.SubMenu_Title {
+	font-family:Arial,sans-serif; 
+	height:32px; 
+	background-color:blue; 
+	color:#FFFFFF; 
+	font-size:18px; 
+	font-weight:600; 
+	padding:3px; 
+	padding-top:8px;
+}
+
+.Hint_Statements {
+	font-family:Arial,sans-serif; 
+	line-height:130%; 
+	font-size:13px;
+}
+
+/*-----------------------------------Program #12 Info.php------------------------------------*/
+.Info_Container {
+	margin-left:-10px; /*-112px*/
+	margin-top:90px; /*30px*/
+	width:100%;
+	align:center;
+	font-family:Arial,sans-serif;  
+	font-size:13px;  
+}
+
+.Info_Border {
+	border:solid thin #C0C0C0; 	
+	-webkit-border-radius:5px; 
+	-moz-border-radius:5px; 
+	border-radius:5px; 
+	
+ 	-webkit-box-shadow:5px 10px 10px -5px rgba(0,0,0,0.4);  
+  	-moz-box-shadow:5px 10px 10px -5px rgba(0,0,0,0.4);  
+	box-shadow:5px 10px 10px -5px rgba(0,0,0,0.4);	
+	
+	width:650px; 
+	height:auto; 
+	margin:0 auto; 
+	padding: 32px 0px 0px 0px; 
+	background-color: #F4FFFF;
+}
+
+.Info_DearUser {
+	font-size:16px; 
+	font-weight:600; 
+	color:#069; 
+	padding-left:3.5em; 
+	margin-top:1em; 
+	/*--float:left;*/ 
+	margin-left:0.5em;
+}
+
+.Info_Line {
+	color:#006699; 
+	margin-left:3em; 
+	margin-right:1em;	
+	border:none;
+	border-top:1px solid #9DDCE1;
+	}
+	
+.Info_Table {
+	font-family:Tahoma, Geneva, sans-serif; 
+	font-size:14px; 
+	margin-left:2em; 
+	line-height:24px; 
+	margin-top:12px;
+	align:center;
+	width:95%;
+	border:0px;
+	cellspacing:0px;
+	cellpadding:0px;
+}
+
+.Info_Image {
+	width:64px;
+	height:64px;
+	border:0px;
+	align:absmiddle;
+}
+
+.info_Statement {
+	font-weight:600; 
+	font-size:14px;
+}
+
+.Info_Foot1 {
+	colspan:4;
+}
+
+.Info_Foot2 {
+	colspan:4;
+	line-height:24px;
+}
+
+.Info_Foot3 {
+	colspan:4;
+ 	line-height:32px;
+}
+
+.Info_Foot4 {
+ 	line-height:32px;
+	text-align:center; 
+	padding-left:1em;
+}
+
+/*-----------------------------------Program #13 DocumentReviewSearch.php DocumentReview.php----------------------------*/
+
+.DocReviewSearch_Title2 {
+	width:98%; 
+	float:left; 
+	height:20px; 
+	background-color:rgb(85,223,255); 
+	text-align:center; 
+	padding-top:6px; 
+	font-size:13px; 
+	font-weight:600;
+}
+
+.DocReviewSearch_Content2 {
+	margin-top:4px;
+	margin-bottom:4px;
+	width:98%; 
+	float:left;
+}
+
+.DocumentReview_Head {
+	float:left; 
+	margin-left:75px; 
+	padding-top:32px;
+}
+
+.DocumentReview_Image {
+	border:none; 
+	vertical-align: bottom;
+}
+
+.DocumentReview_HeadText {
+	font-size:16px; 
+	font-weight:600; 
+	color:#09F; 
+	margin-left:1em;
+}
+
+.DocumentReview_HeadProject {
+	float:right; 
+	margin-right:75px; 
+	padding-top:56px;
+}
+
+.DocumentReview_HeadProjectText {
+	font-size:12px; 
+	font-weight:500; 
+	color:#066; 
+	margin-right:0.5em;
+}
+
+
+.DocumentReview_SeparativeLine {
+	width:1024px;
+	border:0;
+	font-family: Tahoma, Geneva, sans-serif; 
+	font-size:12px; 
+	text-indent:5px;
+}
+
+
+.DocumentReview_SeparativeLine1 {	
+	line-height:1px; 
+	background-color:#069;
+}
+
+.DocumentReview_SeparativeLine2 {
+	line-height:1px; 
+	background-color:#E7FDFE;
+}
+
+.DocumentReview_MainTable {
+	width:1024px;
+	border:solid #15B4FF 1px; 
+	font-family: Tahoma, Geneva, sans-serif; 
+	font-size:12px; 
+	line-height:26px; 
+	text-indent:5px; 
+	margin-top:0.5em;
+}
+
+.DocumentReview_MainTableLine {
+	line-height:1px; 
+	background-color:#CCFFCC;
+}
+
+.DocumentReview_MainTableTitle {
+	color:#066; 
+	line-height:26px; 
+	background-color:#AFC1E0; 
+	background: url(../Images/tr_b.png) repeat-x; 
+	border-top:solid #C0C0C0 1px;  
+	border-bottom:solid #C0C0C0 1px;
+}
+
+.DocumentReview_MainTableTitle1 {
+	font-size:14px; 
+	color:#09F; 
+	border-right:solid #C0C0C0 1px; 
+	text-align:center;
+}
+
+.DocumentReview-BackColor {
+	line-height:26px; 
+	text-align:center;
+}
+
+.DocumentReview-TableContent {
+	text-align:center; 
+	font-size:12px; 
+	font-weight:600; 
+	color:#066; 
+	border-right:solid #C0C0C0 1px; 
+	border-bottom: dotted #C0C0C0 1px;
+}
+
+.DocumentReview-TableBottom {
+	background-color:#EFFFFF; 
+	line-height:16px;
+}
+
+/*-----------------------------------Program #14 DocumentApproveInitiation.php ----------------------------*/
+
+#DocApprovalInitiation_WebPage {
+	margin-left:0px; 
+	margin-top:32px; 
+	width:100%;
+}
+
+.DocApprovalInitiation_TableType1 {
+	border:0px;
+	font-family: Tahoma, Geneva, sans-serif; 
+	font-size:12px; 
+	text-indent:5px;
+}
+
+.DocApprovalInitiation_TableType2 {
+	width: 1024px;
+	border:0;
+	line-height:26px;
+	font-family: Tahoma, Geneva, sans-serif; 
+	font-size:12px; 
+	text-indent:5px; 
+	background-color:#EAF2FF; 
+	border:solid #15B4FF 1px;
+}
+
+.DocApprovalInitiation_TitleType1 {
+	font-size:14px; 
+	color:#069; 
+	text-indent:0.7em;
+}
+
+.DocApprovalInitiation_InputSubTitle {
+  text-indent:0.7em;
+	text-align:right;
+	font-weight:500; 
+	color:#066;
+}
+
+.DocApprovalInitiation_InputLeftTitle {
+	text-indent:0.7em; 
+	font-weight:500; 
+	color:#066;
+}
+
+.DocApprovalInitiation_InputRightTitle {
+	text-indent:1em; 
+	font-weight:500; 
+	color:#066;
+}
+
+.DocApprovalInitiation_DecorationLine {
+	line-height:3px; 
+	background-color:#EAF2FF;
+}
+
+
+.DocApprovalInitiation_Bottom {
+	width: 1024px;
+	border:none;    /*--#15B4FF--*/
+}
+
+
+
+
+/*-----------------------------------Program #15 RiskFMEA.php ----------------------------*/
+
+.FMEA_Container {
+	position: absolute;
+	margin:auto;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	width:1315px;
+	background-color:#fff;
+	}
+
+.FMEA_HeadTable {
+	text-align:center;	/*center*/
+	/*table-layout:fixed;*/
+	width:1315px;
+	font-family: Tahoma, Geneva, sans-serif; 
+	font-size:18px; 
+	/*text-indent:5px;*/
+	/*margin-top:0.1em;	*/
+	/*margin-right:30px;*/			
+}
+
+.FMEA_FirstBlank {
+	line-height:12px; 
+}
+
+.FMEA_HeadTable_Log {	
+	color:#069; 
+	font-size:24px;
+	/*text-indent:0.7em; 
+	text-align:left;*/
+	vertical-align:bottom;
+}
+
+.FMEA_HeadTable_Image {
+	/*width:24px;*/
+	height:28px;
+	vertical-align:text-bottom;
+}
+
+.FMEA_HeadTable_Title {
+	font-weight:600; 
+	color:#09F;
+	text-align: center;
+	font-size:24px;
+}
+
+#FMEA_TableContents {
+	text-align:center;
+	width:1315px;
+	border:solid #15B4FF 1px; 
+	font-family: Tahoma, Geneva, sans-serif; 
+}
+
+.FMEA_CellBorder {
+	border-right:solid #000000 1px; 
+	border-bottom:solid #000000 1px;
+}
+
+.FMEA_CellInput {
+	width:98%; 
+	border:none; 
+	text-align:center;
+}
+
+.FMEA_CellCross {
+	width:50%; 
+	background:url(../Images/edit_add.png) no-repeat center;
+	margin-bottom:2px; 
+}
+
+/*-----------------------------------Program #15 RiskFMEAPopUp.php ----------------------------*/
+
+.FMEAPopUp_Div {
+	margin-left:0px; 
+	margin-top:12px; 
+	/*height:auto;  */  								 /*--224=left Column width--*/
+}
+
+.FMEAPopUp_Table1 {
+	border:0;
+	line-height:26px;
+	font-family: Tahoma, Geneva, sans-serif; 
+	font-size:12px; 
+	text-indent:5px; 
+	background-color:#EAF2FF; 
+	border:solid #15B4FF 1px;
+}
+
+.FMEA_PopUP_DW {	/* for normal standard popup window */
+	display:none;
+	z-index:1002;
+	top:50%;
+	left:50%;
+	width:810px;
+	height:400px;	/*560px*/
+	margin-left:-400px!important;/*FF IE7 half of width -400px*/
+	margin-top:-200px!important;/*FF IE7 half of height -280px*/
+	margin-top:0px;  /*0px;*/
+	background-color:#FAFAFA; 
+	border: 5px solid #DDEEF6;
+	position:fixed!important;/* FF IE7*/
+	position:absolute;/*IE6*/
+	_top:       expression(eval(document.compatMode &&
+				document.compatMode=='CSS1Compat') ?
+				documentElement.scrollTop + (document.documentElement.clientHeight-this.offsetHeight)/2 :/*IE6*/
+				document.body.scrollTop + (document.body.clientHeight - this.clientHeight)/2);/*IE5 IE5.5*/
+}
+
+.FMEA_PopUP_DW_L {					/* for larger popup window  */
+	display:none;
+	z-index:1002;
+	top:40%;		/* 50% */
+	left:36.7%;		/* 50% */
+	width:1210px;	/* 810px */
+	height:477px;	/*400px*/
+	margin-left:-400px!important;/*FF IE7 half of width -400px*/
+	margin-top:-200px!important;/*FF IE7 half of height -280px*/
+	margin-top:0px;  /*0px;*/
+	background-color:#FAFAFA; 
+	border: 5px solid #DDEEF6;
+	position:fixed!important;/* FF IE7*/
+	position:absolute;/*IE6*/
+	_top:       expression(eval(document.compatMode &&
+				document.compatMode=='CSS1Compat') ?
+				documentElement.scrollTop + (document.documentElement.clientHeight-this.offsetHeight)/2 :/*IE6*/
+				document.body.scrollTop + (document.body.clientHeight - this.clientHeight)/2);/*IE5 IE5.5*/
+}
+
+.FMEA_PopUP_DW_S {	/* for small popup window */
+	display:none;
+	z-index:1002;
+	top:50%;
+	left:50%;
+	width:400px;
+	height:200px;	
+	margin-left:-400px!important;/*FF IE7 half of width -400px*/
+	margin-top:-200px!important;/*FF IE7 half of height -280px*/
+	margin-top:0px;  /*0px;*/
+	background-color:#FAFAFA; 
+	border: 5px solid #DDEEF6;
+	position:fixed!important;/* FF IE7*/
+	position:absolute;/*IE6*/
+	_top:       expression(eval(document.compatMode &&
+				document.compatMode=='CSS1Compat') ?
+				documentElement.scrollTop + (document.documentElement.clientHeight-this.offsetHeight)/2 :/*IE6*/
+				document.body.scrollTop + (document.body.clientHeight - this.clientHeight)/2);/*IE5 IE5.5*/
+}
+
+.FMEA_PopUP_BG{ 
+	display: none; 
+	position: absolute; 
+	top: 0%; 
+	left: 0%; 
+	width: 100%; 
+	height: 100%;/*4096px; */
+	background-color:black; 
+	z-index:1001; 
+	-moz-opacity: 0.5; 
+	opacity:.50; 
+	filter: alpha(opacity=50); 
+}
+
+.FMEA_PopUp_Head{
+    float:left; 
+	margin-left:1.5em;	
+}
+
+.FMEA_PopUp_Head_Image{
+	width:64px;
+	height:64px;
+	border:none; 
+	vertical-align: middle;
+	margin-bottom: 1px;
+}
+
+.FMEA_PopUp_Head_Title{
+	font-size:16px; 
+	font-weight:600; 
+	color:#09F; 
+	margin-left:0.7em;
+	/*vertical-align: middle;*/
+}
+
+.FMEA_PopUp_InputTitle {
+	font-size:14px; 
+	text-indent:1em; 
+	font-weight:500; 
+	color:#066;
+}
+.FMEA_PopUp_Row {
+	align: center;
+	background-color:#EAF2FF; 
+	border:none;    /*--#15B4FF--*/
+}
+
+.FMEA_UploadImageTitle {
+	font-size:14px; 
+    text-indent:0.7em;
+	text-align:left;
+	font-weight:500; 
+	color:#066;
+}
+
+.Save_Button{ 
+	font:100 12px/18px Tahoma, Geneva, sans-serif; color:#FFFFFF;
+	margin-top: 4px;
+	padding: 1px 5px 2px 5px;
+	/* background:url(overlay.png) repeat-x center #a7dd32; */
+	background-color:rgba(91,173,255,1);
+	border:1px solid #aaa;
+	-moz-border-radius:3px; -webkit-border-radius:3px; border-radius:3px;
+	border-bottom:1px solid #aaa;
+	-moz-box-shadow:inset 0 1px 0 rgba(255,255,255,0.5); -webkit-box-shadow:inset 0 1px 0 rgba(255,255,255,0.5); box-shadow:inset 0 1px 0 rgba(255,255,255,0.5);
+	cursor:pointer;
+}
+
+.Save_Button:hover{background-color:rgba(91,173,255,0.6); color:#F60; cursor:pointer;}
+.Save_Button:active{position:relative;top:2px;}
+
+
+.FMEA_PopUPImage_DW {
+	display:none;
+	z-index:1004;
+	top:50%;
+	left:50%;
+	width:400px;	/*810px*/
+	height:200px;	/*400px*/
+	margin-left:-200px;/*!important;/*FF IE7 half of width -400px*/
+	margin-top:-150px;/*!important;/*FF IE7 half of height -280px*/
+	background-color:#FAFAFA; 
+	border: 5px solid #DDEEF6;
+	position:fixed!important;/* FF IE7*/
+	position:absolute;/*IE6*/
+	_top:       expression(eval(document.compatMode &&
+				document.compatMode=='CSS1Compat') ?
+				documentElement.scrollTop + (document.documentElement.clientHeight-this.offsetHeight)/2 :/*IE6*/
+				document.body.scrollTop + (document.body.clientHeight - this.clientHeight)/2);/*IE5 IE5.5*/
+}
+
+
+.FMEA_PopUPImage_BG{ 					/*a grey zone on top of task pop up window */
+	display: none; 
+	position: absolute; 
+	margin-top:-100px;
+	top: 0%; 
+	left: 0%; 
+	width: 810px; 
+	height: 500px; /*440px;100%; */
+	background-color:black; 
+	z-index:1003; 
+	-moz-opacity: 0.5; 
+	opacity:.20; 					/*50*/
+	filter: alpha(opacity=20); 
+}
+
+#FMEAImage_POP_Grey{						
+	width:100%; 
+	height:28px; 
+	background-color:#EBF2F5;
+	font-family:Tahoma, Geneva, sans-serif; 
+	margin-top:3px;
+}
+#FMEAImage_POP_CloseSign{
+	width:240px; 
+	float:right; 
+	color:#09C; 
+	font-size:12px; 
+	font-weight:600; 
+	text-align:right;
+}
+
+
+#FMEA_RMPFrontpage2 {
+	align: center;
+	width: 400px;
+	margin-top: 200px;
+	border:0;
+	cellpadding:0;
+	cellspacing:0;
+	line-height:26px;
+	font-family: Tahoma, Geneva, sans-serif; 
+	font-size:12px; 
+	text-indent:5px; 
+	background-color:#EAF2FF; 
+	border:solid #15B4FF 1px;
+}
+/*   RiskFMEA_SandBox.php   */
+.SandBox_SecondTableTitle {
+	align:center;
+	border:0px;
+	/*cellpadding:0px;
+	cellspacing:0px;*/
+	font-family: Tahoma, Geneva, sans-serif; 
+	font-size:12px; 
+	/*text-indent:5px;*/
+}
+
+.Hazard_CellCross {
+	width:70%; 
+	background:url(../Images/edit_add.png) no-repeat center;
+	margin-bottom:2px; 
+}
+
+.Hazard_Sort {
+	align: center;
+	width: 400px;
+	margin-top: 1px;
+	border:0;
+	cellpadding:0;
+	cellspacing:0;
+	line-height:26px;
+	font-family: Tahoma, Geneva, sans-serif; 
+	font-size:12px; 
+	text-indent:5px; 
+	background-color:#EAF2FF; 
+	border:solid #15B4FF 1px;	/*#15B4FF*/
+}
+
+.Hazard_PopUP_Sort {
+	display:none;
+	z-index:1002;
+	top:50%;
+	left:50%;
+	width:420px;
+	height:130px;	/*560px*/
+	margin-left:-200px!important;/*FF IE7 half of width -400px*/
+	margin-top:-100px!important;/*FF IE7 half of height -280px*/
+	
+	background-color:#EAF2FF; 
+	border:solid #15B4FF 1px;
+	position:fixed!important; /*FF IE7*/
+	position:absolute; /*IE6*/
+}
+
+#FMEA_PValue {
+	text-align:center;
+	border:solid #15B4FF 1px; 
+	font-family: Tahoma, Geneva, sans-serif;
+	
+}
+
+/*-----------------------------------Programs for regulatory ----------------------------*/
+
+
+#Regulatory_SubmissionTable {
+	align:center;
+	border:0px;
+	/*cellpadding:0px;
+	cellspacing:0px;*/
+	font-family: Tahoma, Geneva, sans-serif; 
+	font-size:12px; 
+	text-indent:5px;
+	width:1024px;
+}
+
+.Regulatory_SubmissionTable_Title {
+	font-size:14px; 
+	border-right:solid #C0C0C0 1px;
+	border-bottom:solid #C0C0C0 1px;
+}
+
+.Regulatory_SubmissionTable_Section
+{
+border-bottom:dotted #093 1px; 		/* dotted */
+border-right:dotted #093 1px;
+}
+
+.Reg_CellInput
+{
+	width:98%; 
+	border:none; 
+	text-align:left;
+	font-size:12px; 
+}
+
+/*-----------------------------------Programs for post market ----------------------------*/
+
+.PM_TableTitle1  {
+	font-size:14px; 
+	color:#069; 
+	text-indent:0.7em;
+	width:30%;
+}
+
+.PM_TableTitle2 {
+	height:24px;
+	padding-top:2px; 
+	float:right; 
+	cursor:hand;
+}
+
+.PM_Table1 {
+	border:0px;
+	font-family: Tahoma, Geneva, sans-serif; 
+	font-size:12px; 
+	text-indent:5px;
+}
+
+.PM_Table2 {
+	align: center;
+	width: 1024px;
+	border:0;
+	cellpadding:0;
+	cellspacing:0;
+	line-height:26px;
+	font-family: Tahoma, Geneva, sans-serif; 
+	font-size:12px; 
+	text-indent:5px; 
+	background-color:#EAF2FF; 
+	border:solid #15B4FF 1px;
+}
+
+.PM_InputTitle {
+	text-indent:0.7em; 
+	font-weight:500; 
+	color:#066;
+	text-align:right;
+}
+
+.PM_DecorationLine {
+	line-height:3px; 
+	background-color:#EAF2FF;
+}
+
+.PM_TableBottom {
+	align: center;
+	width: 1024px;
+	background-color:#EAF2FF; 
+	border:none;    /*--#15B4FF--*/
+}
+
+.Complaint_Sort {
+	align: center;
+	width: 400px;
+	margin-top: 1px;
+	border:0;
+	cellpadding:0;
+	cellspacing:0;
+	line-height:26px;
+	font-family: Tahoma, Geneva, sans-serif; 
+	font-size:12px; 
+	text-indent:5px; 
+	background-color:#EAF2FF; 
+	border:solid #15B4FF 1px;	/*#15B4FF*/
+}
+
+#ExportRMR_Frontpage {
+	text-align: center;
+	width: 400px;
+	vertical-align: middle;
+	border:0;
+	cellpadding:0;
+	cellspacing:0;
+	line-height:26px;
+	font-family: Tahoma, Geneva, sans-serif; 
+	font-size:12px; 
+	text-indent:5px; 
+	background-color:#EAF2FF; 
+	border:solid #15B4FF 1px;
+}
+
+.RMR_PopUP_Sort {
+	display:none;
+	z-index:1002;
+	top:50%;
+	left:50%;
+	width:420px;
+	height:180px;	/*560px*/
+	margin-left:-200px!important;/*FF IE7 half of width -400px*/
+	margin-top:-100px!important;/*FF IE7 half of height -280px*/
+	
+	background-color:#EAF2FF; 
+	border:solid #15B4FF 1px;
+	position:fixed!important; /*FF IE7*/
+	position:absolute; /*IE6*/
+}
+
+/*-----------------------------------Programs for valiation ----------------------------*/
+
+#Validation_Flowdiagrams {
+	align:center;
+	border:0px;
+	/*cellpadding:0px;
+	cellspacing:0px;*/
+	font-family: Tahoma, Geneva, sans-serif; 
+	font-size:12px; 
+	text-indent:5px;
+	width:1024px;
+}
+
+.Validation_PopUP_DW {	/* for normal standard popup window */
+	display:none;
+	z-index:1002;
+	top:37%;
+	left:50%;
+	width:810px;
+	height:560px;	/*560px*/
+	margin-left:-400px!important;/*FF IE7 half of width -400px*/
+	margin-top:-200px!important;/*FF IE7 half of height -280px*/
+	margin-top:0px;  /*0px;*/
+	background-color:#FAFAFA; 
+	border: 5px solid #DDEEF6;
+	position:fixed!important;/* FF IE7*/
+	position:absolute;/*IE6*/
+	_top:       expression(eval(document.compatMode &&
+				document.compatMode=='CSS1Compat') ?
+				documentElement.scrollTop + (document.documentElement.clientHeight-this.offsetHeight)/2 :/*IE6*/
+				document.body.scrollTop + (document.body.clientHeight - this.clientHeight)/2);/*IE5 IE5.5*/
+}
+
+/*-----------------------------------Programs for software ----------------------------*/
+#Software_Roadmap_Container {
+	position: absolute;
+	margin:auto;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	width:720px;
+	background-color:#F8F8F8;
+	}
+
+#Software_Roadmap_TaskTables {
+	text-align:center;
+	width:720px;
+	border:0;
+	padding:0;
+	border-spacing:0;
+	border:solid #15B4FF 1px; 
+	font-family: Tahoma, Geneva, sans-serif; 
+	font-size:12px; 
+	line-height:26px; 
+	text-indent:5px;
+	margin-top:0.1em;
+}
+
+#Software_Roadmap_TaskTables_ShadeLine_FirstColumn {
+	line-height:1px; 
+	width:4%;
+}
+
+#Software_Roadmap_TaskTables_ShadeLine_ImageColumns {
+	line-height:1px; 
+	width:6.2%;
+	background-color:#CCFFCC;
+}
+
+#Software_Foot_Table {
+	width:720px;
+	font-family: Tahoma, Geneva, sans-serif; 
+}
+
+#Software_Roadmap_HeadTable {
+	text-align:center;	/*center*/
+	/*table-layout:fixed;*/
+	width:720px;
+	font-family: Tahoma, Geneva, sans-serif; 
+	font-size:18px; 
+	/*text-indent:5px;*/
+	/*margin-top:0.1em;	*/
+	/*margin-right:30px;*/			
+}
+
+#Software_HeadTable_FirstBlank {
+	width:100%;
+	line-height:12px; 
+	margin-right:30px;
+}
+
+#Software_Roadmap_HeadTable_Log {
+	width:60%;	
+	color:#069; 
+	font-size:18px;
+	text-indent:0.7em; 
+	text-align:left;
+	vertical-align:bottom;
+}
+
+#Software_Roadmap_HeadTable_Image {
+	width:32px;
+	height:32px;
+	vertical-align:text-bottom;
+}
+
+#Software_Roadmap_HeadTable_Type {
+	font-weight:600; 
+	color:#09F;
+}
+
+.Software_PopUP_BG{ 
+	display: none; 
+	position: absolute; 
+	top: 0%; 
+	left: 0%; 
+	width: 100%; /*100% */
+	height: 100%;/*4096px */
+	background-color:black; 
+	z-index:1001; 
+	-moz-opacity: 0.5; 
+	opacity:.50; 
+	filter: alpha(opacity=50); 
+} 
+
+.Software_RiskAnalysis_BG{ 
+	display: none; 
+	position: absolute; 
+	top: 0%; 
+	left: 0%; 
+	width: 100%; /*100% */
+	height: 160%;/*140% 4096px */
+	background-color:black; 
+	z-index:1001; 
+	-moz-opacity: 0.5; 
+	opacity:.50; 
+	filter: alpha(opacity=50); 
+} 
+
+.Task_PopUP_DW_Larger{
+	display:none;
+	z-index:1002; /* 1002*/
+	top:50%;
+	left:50%;
+	width:1115px;   /* 1024px */
+	height:580px;	/* 580px */
+	margin-left: -560px;         /*-557px; -400px, -520px, -650px !important; FF IE7 half of width */
+	margin-top:-290px;/* -280px!important FF IE7 half of height */
+	/*margin-top:0px; */
+	background-color:#FAFAFA; 
+	border: 5px solid #DDEEF6;
+	position:fixed!important;/* FF IE7*/
+	position:absolute;/*IE6*/
+	_top:       expression(eval(document.compatMode &&
+				document.compatMode=='CSS1Compat') ?
+				documentElement.scrollTop + (document.documentElement.clientHeight-this.offsetHeight)/2 :/*IE6*/
+				document.body.scrollTop + (document.body.clientHeight - this.clientHeight)/2);/*IE5 IE5.5*/
+}
+
+#Task_POP_Grey_Larger{						/*a grey zone on top of task pop up window */
+	width:100%; 
+	height:18px; 
+	background-color:#EBF2F5;
+	font-family:Tahoma, Geneva, sans-serif; 
+	margin-top:3px;
+}
+
+.Task_PopUP_DW_Larger2{
+	display:none;
+	z-index:1002; /* 1002*/
+	top:50%;
+	left:50%;
+	width:1015px;   /* 1024px */
+	height:450px;	/* 480px */
+	margin-left: -510px;         /*-560px; -557px; -400px, -520px, -650px !important; FF IE7 half of width */
+	margin-top:-230px;/* -290px; -280px!important FF IE7 half of height */
+	/*margin-top:0px; */
+	background-color:#FAFAFA; 
+	border: 5px solid #DDEEF6;
+	position:fixed!important;/* FF IE7*/
+	position:absolute;/*IE6*/
+	_top:       expression(eval(document.compatMode &&
+				document.compatMode=='CSS1Compat') ?
+				documentElement.scrollTop + (document.documentElement.clientHeight-this.offsetHeight)/2 :/*IE6*/
+				document.body.scrollTop + (document.body.clientHeight - this.clientHeight)/2);/*IE5 IE5.5*/
+}
+
+#Task_POP_Grey_Larger2{						/*a grey zone on top of task pop up window */
+	width:100%; 
+	height:18px; 
+	background-color:#EBF2F5;
+	font-family:Tahoma, Geneva, sans-serif; 
+	margin-top:3px;
+}
+
+.FMEA_PopUP_BG_Larger2{ 
+	display: none; 
+	position: absolute; 
+	top: 0%; 
+	left: 0%; 
+	width: 100%; 
+	height: 100%;/*4096px; */
+	background-color:black; 
+	z-index:1001; 
+	-moz-opacity: 0.5; 
+	opacity:.50; 
+	filter: alpha(opacity=50); 
+}
+
+.Software_FMEA_Container {
+	position: absolute;
+	margin:auto;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	width:1095px;
+	background-color:#fff;
+	}
+
+#Software_FMEA_TableContents {
+	text-align:center;
+	width:1095px;
+	border:solid #15B4FF 1px; 
+	font-family: Tahoma, Geneva, sans-serif; 
+}
+
+.Software_FMEA_HeadTable {
+	text-align:center;	/*center*/
+	width:1095px;
+	font-family: Tahoma, Geneva, sans-serif; 
+	font-size:18px; 		
+}
+
+#Software_Foot_Table {
+	width:1095px;		/*1197px */
+	font-family: Tahoma, Geneva, sans-serif; 
+}
+/**************************** Flow chart ******************************************/
+
+.Flow_PopUP_DW{
+	display:none;
+	z-index:1002;
+	top:50%;
+	left:50%;
+	width:410px;
+	height:260px;
+	margin-left:-200px!important;/*FF IE7 half of width */
+	margin-top:-160px!important;/*FF IE7 half of height */
+	margin-top:0px;
+	background-color:#FAFAFA; 
+	border: 5px solid #DDEEF6;
+	position:fixed!important;/* FF IE7*/
+	position:absolute;/*IE6*/
+	_top:       expression(eval(document.compatMode &&
+				document.compatMode=='CSS1Compat') ?
+				documentElement.scrollTop + (document.documentElement.clientHeight-this.offsetHeight)/2 :/*IE6*/
+				document.body.scrollTop + (document.body.clientHeight - this.clientHeight)/2);/*IE5 IE5.5*/
+}
+
+#Flow_POP_Grey{						/*a grey zone on top of task pop up window */
+	width:100%; 
+	height:28px; 
+	background-color:#EBF2F5;
+	font-family:Tahoma, Geneva, sans-serif; 
+	margin-top:3px;
+}
+#Flow_POP_CloseSign{
+	width:240px; 
+	float:right; 
+	color:#09C; 
+	font-size:12px; 
+	font-weight:600; 
+	text-align:right;
+}
+
+.Flow_PopUP_BG{ 
+	display: none; 
+	position: absolute; 
+	top: 0%; 
+	left: 0%; 
+	width: 100%; /*100% */
+	height: 100%;/*4096px */
+	background-color:black; 
+	z-index:1001; 
+	-moz-opacity: 0.5; 
+	opacity:.50; 
+	filter: alpha(opacity=50); 
+} 
+
+.Chart_Title{
+	font-size:16px; 
+	font-weight:600; 
+	color:#09F; 
+	/*vertical-align: middle;*/
+}
+
+.Simulation_TitleBlock {
+	align: center;
+	width: 1124px;
+	border:0;
+	cellpadding:0;
+	cellspacing:0;
+	line-height:26px;
+	font-family: Tahoma, Geneva, sans-serif; 
+	font-size:12px; 
+	text-indent:5px; 
+	background-color:#EAF2FF; 
+	border:solid #15B4FF 1px;
+}
