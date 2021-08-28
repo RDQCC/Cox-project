@@ -1,0 +1,420 @@
+﻿ history
+    1  sudo snap install 
+    2  sudo snap install skype --classic
+    3  python
+    4  python3
+    5  hostname -I | awk '{print $1}'
+    6  sudo apt-get install openssh-server
+    7  sudo systemctl enable ssh
+    8  sudo systemctl start ssh
+    9  $ sudo systemctl status ssh
+   10  sudo systemctl status ssh
+   11  sudo ufw allow ssh
+   12  sudo ufw enable
+   13  sudo ufw status
+   14  host myip.opendns.com resolver1.opendns.com
+   15  wget http://ipecho.net/plain -O - -q ; echo
+   16  udo ufw status verbose
+   17  sudo ufw status verbose
+   18  sudo ufw allow ssh
+   19  sudo ufw allow 22
+   20  vncserver
+   21  sudo apt-get install vnc4server
+   22  sudo apt install tigervnc-standalone-server -y 
+   23  vncserver -list
+   24  tail /var/log/auth.log
+   25  tail /var/log/auth.log -f
+   26  pkill vnc
+   27  vncserver -localhost no
+   28  cd /tmp
+   29  ls -l
+   30  cd ..
+   31  vncserver -localhost no
+   32  tail -f /home/jerry/.vnc/jerry-ThinkPad-T15g-Gen-1:2.log
+   33  vncserver -kill
+   34  rm /tmp/.X11-unix/X1
+   35  sudo rm /tmp/.X11-unix/X1
+   36  vncserver -localhost no
+   37  cp /home/jerry/.vnc/jerry-ThinkPad-T15g-Gen-1:1.log /home/jerry/log.txt
+   38  ps aux |vnc
+   39  ps aux |grep vnc
+   40  kill -9 3135
+   41  kill -9 3136
+   42  kill -9 3137
+   43  history
+   44  vncserver -localhost no
+   45  cp /home/jerry/.vnc/jerry-ThinkPad-T15g-Gen-1:1.log /home/jerry/log.txt 
+   46  cd 
+   47  ls -l
+   48  kill `pidof vnc`
+   49  vncserver -kill
+   50  vncserver -localhost no
+   51  more /home/jerry/.vnc/jerry-ThinkPad-T15g-Gen-1:1.log
+   52  ps aux |grep X
+   53  history
+   54  vncserver -kill :1
+   55  vncserver -localhost no :2
+   56  /sbin/ifconfig -a
+   57  which ifconfig
+   58  sudo apt install net-tools
+   59  /sbin/ifconfig -a
+   60  cat /sys/module/ipv6/parameters/disable
+   61  ip addr show dev eth0 | sed -e's/^.*inet6 \([^ ]*\)\/.*$/\1/;t;d'
+   62  ip -6 addr
+   63  ifconfig | grep inet6
+   64  netstat -r
+   65  ip -6 route
+   66  ping ipv6.google.com
+   67  sudo apt-get install openssh-client
+   68  sudo apt-get install openssh-server
+   69  ps -A | grep sshd
+   70  ssh localhost
+   71  ifconfig | grep "inet addr"
+   72  ifconfig | grep inet
+   73  ip a
+   74  cd /etc/default
+   75  ls -l
+   76  sudo update-grub
+   77  ip a
+   78  shutdown -r now
+   79  sudo shutdown -r now
+   80  ip a
+   81  history
+   82  history |grep
+   83  history |grep log
+   84  tail -f /var/log/auth.log
+   85  sudo systemctl status ssh
+   86  sudo ufw allow ssh
+   87  ip a
+   88  ssh shahar@108.185.32.149
+   89  ssh shahar@76.172.69.167
+   90  ssh jerry@76.172.69.167
+   91  sudo ufw status
+   92  sudo iptables -L
+   93  sudo iptables -I INPUT -p tcp --dport 22 -j ACCEPT
+   94  sudo iptables -I OUTPUT -p tcp --dport 22 -j ACCEPT
+   95  sudo iptables-save
+   96  sudo service network-manager restart
+   97  history
+   98  ssh jerry@76.172.69.167
+   99  ssh shahar@108.185.32.149
+  100  ssh jerry@localhost
+  101  ssh jerry@76.172.69.167
+  102  ping 76.172.69.167
+  103  ping 108.185.32.149
+  104  sudo iptables-save > /home/jerry/iptable_rules
+  105  sudo iptables -L -n -v
+  106  sudo iptables -F
+  107  sudo iptables -P INPUT ACCEPT
+  108  sudo iptables -P FORWARD
+  109  sudo iptables -P FORWARD ACCEPT
+  110  sudo iptables -P OUTPUT ACCEPT
+  111  sudo iptables -t nat -F
+  112  sudo iptables -t mangle -F
+  113  sudo iptables -F
+  114  sudo iptables -X
+  115  history
+  116  ping google.com
+  117  ssh jerry@76.172.69.167
+  118  ssh jerry@localhost
+  119  sudo nmap mylinuxserverip.com
+  120  sudo apt-get install nmap
+  121  sudo nmap mylinuxserverip.com
+  122  sudo nmap 76.172.69.167
+  123  ssh jerry@localhost
+  124  ip a
+  125  ip -a
+  126  ip a
+  127  ssh jerry@192.168.1.16
+  128  ps aux |grep firefox
+  129  ps aux |grep sublime
+  130  pkill sublime
+  131  cl
+  132  dt
+  133  cl
+  134  who
+  135  ps aux |grep pts
+  136  kill -9 28559
+  137  kill -9 34919
+  138  ps aux |grep pts
+  139  who
+  140  cl
+  141  apt-get install libgl1-mesa-glx libegl1-mesa libxrandr2 libxrandr2 libxss1 libxcursor1 libxcomposite1 libasound2 libxi6 libxtst6
+  142  sudo apt-get install libgl1-mesa-glx libegl1-mesa libxrandr2 libxrandr2 libxss1 libxcursor1 libxcomposite1 libasound2 libxi6 libxtst6
+  143  wget https://repo.anaconda.com/archive/Anaconda3-2021.05-Linux-x86_64.sh
+  144  python
+  145  python --version
+  146  cl
+  147  vi Anaconda3-2021.05-Linux-x86_64.sh 
+  148  sh Anaconda3-2021.05-Linux-x86_64.sh 
+  149  conda create -n simplet python=3.8 pandas tqdm
+  150  anaconda
+  151  conda
+  152  cd
+  153  source .bashrc
+  154  cd -
+  155  conda create -n simplet python=3.8 pandas tqdm
+  156  conda activate simplet
+  157  conda install pytorch==1.5.1 torchvision==0.6.1 cudatoolkit=10.2 -c pytorch
+  158  pip3 install simpletransformers
+  159  cd HARM/
+  160  cl
+  161  ./simple.py 
+  162  vi simple.py 
+  163  ./simple.py 
+  164  vi simple.py 
+  165  ./simple.py 
+  166  cl
+  167  rm -fr cache_dir/
+  168  rm -fr outputs/
+  169  rm -fr runs/
+  170  ./simple.py 
+  171  who
+  172  cd
+  173  vi .bashrc
+  174  cl
+  175  dt
+  176  cl
+  177  cd HARM/
+  178  ./simple.py 
+  179  pip3 install simpletransformers
+  180  ./simple.py 
+  181  pip install torch==1.5.1 torchvision==0.6.1
+  182  who
+  183  ps aux |grep pts
+  184  kill -9 41317
+  185  who
+  186  cl
+  187  dt
+  188  cl
+  189  cd HARM/
+  190  cl
+  191  ./simple.py 
+  192  vi simple.py 
+  193  ./simple.py 
+  194  python
+  195  lspci | grep -i nvidia
+  196  gcc --version
+  197  uname -r
+  198  cl
+  199  up
+  200  mkdir CAB
+  201  mv Anaconda3-2021.05-Linux-x86_64.sh CAB/
+  202  cl
+  203  mkdir cuda
+  204  cd cuda/
+  205  cl
+  206  wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2004/x86_64/cuda-ubuntu2004.pin
+  207  cl
+  208  sudo mv cuda-ubuntu2004.pin /etc/apt/preferences.d/cuda-repository-pin-600
+  209  wget https://developer.download.nvidia.com/compute/cuda/11.4.1/local_installers/cuda-repo-ubuntu2004-11-4-local_11.4.1-470.57.02-1_amd64.deb
+  210  sudo dpkg -i cuda-repo-ubuntu2004-11-4-local_11.4.1-470.57.02-1_amd64.deb
+  211  sudo apt-key add /var/cuda-repo-ubuntu2004-11-4-local/7fa2af80.pub
+  212  sudo apt-get update
+  213  sudo apt-get -y install cuda
+  214  up
+  215  cd HARM/
+  216  cl
+  217  ./simple.py 
+  218  vi simple.py 
+  219  ./simple.py 
+  220  python
+  221  cl
+  222  up
+  223  cd cuda/
+  224  cl
+  225  sudo dpkg -i cuda-repo-ubuntu2004-11-4-local_11.4.1-470.57.02-1_amd64.deb 
+  226  sudo apt-get install cuda
+  227  sudo apt-get install nvidia-gds
+  228  cd
+  229  l
+  230  ls -la
+  231  vi .profile 
+  232  vi .bashrc 
+  233  source .bashrc
+  234  dt
+  235  cd HARM/
+  236  ./simple.py 
+  237  env
+  238  ls //usr/local/cuda-11.4/bin/
+  239  uname -m
+  240  export LD_LIBRARY_PATH=/usr/local/cuda-11.4/lib64                         ${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
+  241  ./simple.py 
+  242  cd
+  243  vi .bashrc 
+  244  cat /proc/driver/nvidia/version 
+  245  history |grep pip
+  246  pip install torch==1.5.1 torchvision==0.6.1
+  247  pip install --upgrade  torch==1.5.1 torchvision==0.6.1
+  248  pip install --upgrade --force  torch==1.5.1 torchvision==0.6.1
+  249  ./simple.py 
+  250  pwd
+  251  cd Desktop/HARM/
+  252  ./simple.py 
+  253  cd ../cuda/
+  254  wget https://developer.download.nvidia.com/compute/cuda/11.4.1/local_installers/cuda_11.4.1_470.57.02_linux.run
+  255  sudo sh cuda_11.4.1_470.57.02_linux.run
+  256  sudo apt-get remove nvidida-cuda-toolkit
+  257  sudo apt-get install nvidia-cuda-toolkit
+  258  cd ../HARM/
+  259  ./simple.py 
+  260  cd ../cuda/
+  261  cd /usr/local/cuda
+  262  cl
+  263  up
+  264  ls /etc/alternatives/cuda-11/
+  265  vi /etc/alternatives/cuda-11/README 
+  266  cl
+  267  mv cuda-11.4 CCUDA-11.4
+  268  cl
+  269  mv cuda-11.4 CCUDA-11.4
+  270  sudo mv cuda-11.4 CCUDA-11.4
+  271  cl
+  272  mv cuda CCUDA
+  273  sudo mv cuda CCUDA
+  274  cl
+  275  sudo mv cuda-11 CCUDA-11
+  276  cl
+  277  dt
+  278  cd cuda/
+  279  cl
+  280  sudo sh cuda_11.4.1_470.57.02_linux.run
+  281  dpkg -l
+  282  dpkg -l |grep Nvidia
+  283  man dpkg
+  284  sudo apt-get remove --purge nvidia\*
+  285  sudo apt-get autoremove
+  286  cl
+  287  sudo sh cuda_1.4.1_470.57.02_linux.run
+  288  sudo sh cuda_11.4.1_470.57.02_linux.run --override
+  289  more /var/log/cuda-installer.log
+  290  more /var/log/nvidia-installer.log 
+  291  shutdown -r now
+  292  sudo shutdown -r now
+  293  who
+  294  dt
+  295  cd HARM/
+  296  ./simple.py 
+  297  cd ../cuda/
+  298  cl
+  299  sudo sh cuda_11.4.1_470.57.02_linux.run
+  300  lsmod |grep nouveau
+  301  dpkg -l |grep nvidia
+  302  blacklist nouveau
+  303  sudo /etc/modprobe.d/blacklist-nouveau.conf
+  304  sudo vi /etc/modprobe.d/blacklist-nouveau.conf
+  305  sudo update-initramfs -u
+  306  sudo shutdown -r now
+  307  dt 
+  308  cd HARM/
+  309  lsmod |grep nouveau
+  310  cl
+  311  cd ../cuda/
+  312  cl
+  313  sudo sh cuda_11.4.1_470.57.02_linux.run
+  314  sudo /usr/bin/nvidia-uninstall
+  315  dpkg -l |grep -i nvidia
+  316  sudo apt-get --purge remove libnvidia-compute-470:amd64
+  317  sudo apt-get --purge remove linux-modules-nvidia-460-5.11.0-27-generic 
+  318  sudo apt-get --purge remove linux-modules-nvidia-460-5.8.0-43-generic
+  319  sudo apt-get --purge remove linux-objects-nvidia-460-5.11.0-27-generic
+  320  sudo apt-get --purge remove linux-signatures-nvidia-5.11.0-27-generic
+  321  cl
+  322  sudo ssh cuda_11.4.1_470.57.02_linux.run
+  323  vi cuda_11.4.1_470.57.02_linux.run 
+  324  more cuda_11.4.1_470.57.02_linux.run 
+  325  sh
+  326  sudo sh cuda_11.4.1_470.57.02_linux.run
+  327  cd
+  328  env > envvv
+  329  vi envvv 
+  330  rm envvv 
+  331  pwd
+  332  cd H
+  333  cd Desktop/HARM/
+  334  ./simple.py 
+  335  cd
+  336  cl
+  337  cd NVIDIA_CUDA-11.4_Samples/
+  338  cl
+  339  vi EULA.txt 
+  340  vi Makefile 
+  341  make
+  342  cl
+  343  cd 0_Simple/
+  344  cl
+  345  cd clock
+  346  cl
+  347  vi readme.txt 
+  348  ./clock 
+  349  dt
+  350  cd HARM/
+  351  ./simple.py 
+  352  conda uninstall pytorch-gpu
+  353  cd
+  354  cl
+  355  vi .bashrc 
+  356  source .bashrc
+  357  conda
+  358  conda uninstall pytorch
+  359  vi .bashrc
+  360  source .bashrc
+  361  pip uninstall pytorch
+  362  hitory |grep -i torch
+  363  history |grep -i torch
+  364  sudo pip uninstall torch
+  365  sudo apt install nvidia-cuda-toolkit
+  366  nvcc -V
+  367  pip3 install torch==1.5.1+cu101 torchvision==0.6.1+cu101 -f https://download.pytorch.org/whl/torch_stable.html
+  368  sudo pip3 install torch==1.5.1+cu101 torchvision==0.6.1+cu101 -f https://download.pytorch.org/whl/torch_stable.html
+  369  sudo pip3 install torch==1.5.1+cu101 torchvision==0.6.1+cu101
+  370  sudo pip3 install torch==1.5.1+cu101 torchvision==0.6.1
+  371  sudo pip3 install torch==1.5.1 torchvision==0.6.1
+  372  pwd
+  373  dt
+  374  cd HARM/
+  375  ./simple.py 
+  376  sudo pip3 uninstall torch
+  377  pip3 install torch==1.7.0
+  378  ./simple.py 
+  379  cl
+  380  cl - t outputs/
+  381  vi predict.py 
+  382  ./predict.py 
+  383  ps aux |grep pts
+  384  kill -9 35543
+  385  who
+  386  kill -9 38078
+  387  who
+  388  whoami
+  389  history
+  390  history |grep scp
+  391  scp jiashen@13.56.67.217:/var/www/html/GAME/game/SSEND.tar.gz .
+  392  cl
+  393  mv SSEND.tar.gz Desktop/
+  394  dt
+  395  cl
+  396  tar xzvf SSEND.tar.gz 
+  397  cl
+  398  mv send/
+  399  cl
+  400  cd send/
+  401  cl
+  402  mv * ../
+  403  up
+  404  rmdir send
+  405  rm -fr SSEND.tar.gz 
+  406  cl
+  407  mkdir desktop_progs
+  408  mv cuda/ desktop_progs/
+  409  cl
+  410  ls CAB/
+  411  mv CAB/Anaconda3-2021.05-Linux-x86_64.sh desktop_progs/
+  412  rmdir CAB
+  413  cl
+  414  vi README.JERRY.HELLO.txt 
+  415  cl
+  416  ps aux |grep pts
+  417  kill -9 40692
+  418  who
+  419  history
