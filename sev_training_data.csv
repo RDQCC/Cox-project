@@ -1,0 +1,2227 @@
+sev_context,severity
+ The Harm is probably (death). ,5
+ The Harm is probably (pulmonary embolus). ,4
+ The Harm is probably (stroke). ,4
+ The Harm is probably (myocardial infarction). ,4
+ The Harm is probably (mild to moderate respiratory distress). ,3
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (mild to moderate respiratory distress). ,3
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (mild to moderate respiratory distress). ,3
+ The Harm is probably (contact dermatitis (skin inflammation) with systemic allergic reaction). ,3
+ The Harm is probably (eye inflammation). ,3
+ The Harm is probably (contact dermatitis with localized allergic reaction). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (contact dermatitis (skin inflammation) with systemic allergic reaction). ,3
+ The Harm is probably (eye inflammation). ,3
+ The Harm is probably (contact dermatitis with localized allergic reaction). ,2
+ The Harm is probably (contact dermatitis (skin inflammation) with systemic allergic reaction). ,3
+ The Harm is probably (eye inflammation). ,3
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (anaphylaxis). ,5
+ The Harm is probably (severe respiratory distress). ,4
+ The Harm is probably (stevens johnson syndrome). ,4
+ The Harm is probably (mild to moderate respiratory distress). ,3
+ The Harm is probably (urticaria). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (anaphylaxis). ,5
+ The Harm is probably (severe respiratory distress). ,4
+ The Harm is probably (stevens johnson syndrome). ,4
+ The Harm is probably (mild to moderate respiratory distress). ,3
+ The Harm is probably (severe burn). ,4
+ The Harm is probably (sepsis). ,4
+ The Harm is probably (severe pain). ,4
+ The Harm is probably (moderate burn). ,3
+ The Harm is probably (moderate pain). ,3
+ The Harm is probably (mild burn). ,2
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (severe burn). ,4
+ The Harm is probably (sepsis). ,4
+ The Harm is probably (severe pain). ,4
+ The Harm is probably (moderate burn). ,3
+ The Harm is probably (moderate pain). ,3
+ The Harm is probably (mild burn). ,2
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (severe hemolytic anemia). ,4
+ The Harm is probably (severe hyperkalemia). ,4
+ The Harm is probably (hypotension). ,4
+ The Harm is probably (congestive heart failure). ,4
+ The Harm is probably (acute kidney injury). ,4
+ The Harm is probably (mild to moderate hemolytic anemia). ,3
+ The Harm is probably (mild to moderate hyperkalemia). ,3
+ The Harm is probably (fever). ,3
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (organ damage). ,4
+ The Harm is probably (reproductive system dysfunction). ,3
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (paralysis). ,4
+ The Harm is probably (organ failure/injury). ,4
+ The Harm is probably (malignancy). ,4
+ The Harm is probably (severe hypotension). ,4
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (moderate inflammation (e.g. phlebitis organ)). ,3
+ The Harm is probably (moderate pain). ,3
+ The Harm is probably (fever). ,3
+ The Harm is probably (mild inflammation (e.g. phlebitis organ)). ,2
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (death). ,5
+ The Harm is probably (hypovolemic shock). ,4
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (mild to moderate hypovolemia). ,3
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (mild to moderate hypovolemia). ,3
+ The Harm is probably (hypovolemic shock). ,4
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (mild to moderate hypovolemia). ,3
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (mild to moderate hypovolemia). ,3
+ The Harm is probably (mild to moderate arrhythmia). ,3
+ The Harm is probably (mild to moderate hypertension). ,3
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (seizure). ,3
+ The Harm is probably (severe pain). ,3
+ The Harm is probably (mild to moderate pain). ,2
+ The Harm is probably (temporary discomfort/ user discomfort). ,1
+ The Harm is probably (mild to moderate arrhythmia). ,3
+ The Harm is probably (mild to moderate hypertension). ,3
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (seizure). ,3
+ The Harm is probably (severe pain). ,3
+ The Harm is probably (mild to moderate pain). ,2
+ The Harm is probably (mild to moderate pain). ,2
+ The Harm is probably (mild to moderate arrhythmia). ,3
+ The Harm is probably (mild to moderate hypertension). ,3
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (seizure). ,3
+ The Harm is probably (severe pain). ,3
+ The Harm is probably (temporary discomfort/ user discomfort). ,1
+ The Harm is probably (temporary discomfort/ user discomfort). ,1
+ The Harm is probably (mild to moderate arrhythmia). ,3
+ The Harm is probably (mild to moderate hypertension). ,3
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (seizure). ,3
+ The Harm is probably (severe pain). ,3
+ The Harm is probably (temporary discomfort/ user discomfort). ,1
+ The Harm is probably (temporary discomfort/ user discomfort). ,1
+ The Harm is probably (mild to moderate arrhythmia). ,3
+ The Harm is probably (mild to moderate hypertension). ,3
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (seizure). ,3
+ The Harm is probably (severe pain). ,3
+ The Harm is probably (mild to moderate arrhythmia). ,3
+ The Harm is probably (mild to moderate hypertension). ,3
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (seizure). ,3
+ The Harm is probably (severe pain). ,3
+ The Harm is probably (mild to moderate arrhythmia). ,3
+ The Harm is probably (mild to moderate hypertension). ,3
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (seizure). ,3
+ The Harm is probably (severe pain). ,3
+ The Harm is probably (death cardiopulmonary arrest). ,5
+ The Harm is probably (stroke). ,4
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (mild to moderate tachycardia). ,3
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (mild to moderate tachycardia). ,3
+ The Harm is probably (pain mild). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (mild to moderate tachycardia). ,3
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (severe arrhythmias). ,4
+ The Harm is probably (severe hypertension). ,4
+ The Harm is probably (severe hypotension). ,4
+ The Harm is probably (status epilepticus). ,4
+ The Harm is probably (mild to moderate arrhythmia). ,3
+ The Harm is probably (mild to moderate hypertension). ,3
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (seizure). ,3
+ The Harm is probably (severe pain). ,3
+ The Harm is probably (mild to moderate pain). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (severe arrhythmias). ,4
+ The Harm is probably (severe hypertension). ,4
+ The Harm is probably (severe hypotension). ,4
+ The Harm is probably (status epilepticus). ,4
+ The Harm is probably (mild to moderate arrhythmia). ,3
+ The Harm is probably (mild to moderate hypertension). ,3
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (seizure). ,3
+ The Harm is probably (severe pain). ,3
+ The Harm is probably (mild to moderate pain). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (mild to moderate pain). ,2
+ The Harm is probably (mild to moderate arrhythmia). ,3
+ The Harm is probably (mild to moderate hypertension). ,3
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (seizure). ,3
+ The Harm is probably (severe pain). ,3
+ The Harm is probably (death). ,5
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (pulmonary embolism). ,4
+ The Harm is probably (myocardial infarction). ,4
+ The Harm is probably (stroke). ,4
+ The Harm is probably (extremity swelling pain). ,3
+ The Harm is probably (moderate paresthesias). ,3
+ The Harm is probably (thrombophlebitis or pain). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (pulmonary embolism). ,4
+ The Harm is probably (myocardial infarction). ,4
+ The Harm is probably (stroke). ,4
+ The Harm is probably (extremity swelling). ,3
+ The Harm is probably (moderate pain). ,3
+ The Harm is probably (paresthesias). ,3
+ The Harm is probably (thrombophlebitis). ,2
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (thrombophlebitis). ,2
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (pulmonary embolism). ,4
+ The Harm is probably (myocardial infarction). ,4
+ The Harm is probably (stroke). ,4
+ The Harm is probably (death). ,5
+ The Harm is probably (pulmonary embolism). ,4
+ The Harm is probably (myocardial infarction). ,4
+ The Harm is probably (stroke). ,4
+ The Harm is probably (pulmonary embolism). ,4
+ The Harm is probably (myocardial infarction). ,4
+ The Harm is probably (stroke). ,4
+ The Harm is probably (edema). ,4
+ The Harm is probably (local tissue necrosis). ,4
+ The Harm is probably (severe pain). ,4
+ The Harm is probably (hematoma). ,3
+ The Harm is probably (edema). ,3
+ The Harm is probably (moderate pain). ,3
+ The Harm is probably (burning sensation). ,2
+ The Harm is probably (edema). ,2
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (hematoma). ,3
+ The Harm is probably (edema). ,3
+ The Harm is probably (moderate pain). ,3
+ The Harm is probably (moderate toxic effects such as fatigue sleepiness headaches eye irritation skin rashes). ,3
+ The Harm is probably (mild toxic effects such as fatigue sleepiness headaches eye irritation skin rashes). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (moderate toxic effects such as fatigue sleepiness headaches eye irritation skin rashes). ,3
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (severe arrhythmias). ,4
+ The Harm is probably (severe respiratory depression). ,4
+ The Harm is probably (severe hypotension). ,4
+ The Harm is probably (abnormal mental status- coma). ,4
+ The Harm is probably (status epilepticus). ,4
+ The Harm is probably (mild to moderate arrhythmias). ,3
+ The Harm is probably (mild to moderate respiratory depression). ,3
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (seizures). ,3
+ The Harm is probably (cns irritability tremors or restlessness). ,3
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (severe arrhythmias). ,4
+ The Harm is probably (severe respiratory distress or depression). ,4
+ The Harm is probably (severe hypotension). ,4
+ The Harm is probably (severe hypertension). ,4
+ The Harm is probably (severe hyperglycemia). ,4
+ The Harm is probably (severe hypoglycemia). ,4
+ The Harm is probably (moderate arrhythmias). ,3
+ The Harm is probably (moderate respiratory distress or depression). ,3
+ The Harm is probably (moderate hypotension). ,3
+ The Harm is probably (moderate hypertension). ,3
+ The Harm is probably (moderate hyperglycemia). ,3
+ The Harm is probably (moderate hypoglycemia). ,3
+ The Harm is probably (mild arrhythmias). ,2
+ The Harm is probably (mild respiratory distress or depression). ,2
+ The Harm is probably (mild hypotension). ,2
+ The Harm is probably (mild hypertension). ,2
+ The Harm is probably (mild hyperglycemia). ,2
+ The Harm is probably (mild hypoglycemia). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (stroke). ,4
+ The Harm is probably (organ injury or failure). ,4
+ The Harm is probably (pulmonary embolism). ,4
+ The Harm is probably (severe respiratory distress). ,4
+ The Harm is probably (severe hypertension). ,4
+ The Harm is probably (severe hypotension). ,4
+ The Harm is probably (severe hyperglycemia). ,4
+ The Harm is probably (severe hypoglycemia). ,4
+ The Harm is probably (mild to moderate respiratory distress). ,3
+ The Harm is probably (mild to moderate hypertension). ,3
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (moderate hyperglycemia). ,3
+ The Harm is probably (moderate hypoglycemia). ,3
+ The Harm is probably (mild hyperglycemia). ,2
+ The Harm is probably (mild hypoglycemia). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (septic shock). ,4
+ The Harm is probably (organ injury). ,4
+ The Harm is probably (bacteremia). ,3
+ The Harm is probably (moderate pain). ,3
+ The Harm is probably (mild phlebitis). ,2
+ The Harm is probably (local reaction/ infection). ,2
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (bacteremia). ,3
+ The Harm is probably (moderate pain). ,3
+ The Harm is probably (bacteremia). ,3
+ The Harm is probably (moderate pain). ,3
+ The Harm is probably (bacteremia). ,3
+ The Harm is probably (moderate pain). ,3
+ The Harm is probably (bacteremia). ,3
+ The Harm is probably (moderate pain). ,3
+ The Harm is probably (bacteremia). ,3
+ The Harm is probably (moderate pain). ,3
+ The Harm is probably (bacteremia). ,3
+ The Harm is probably (moderate pain). ,3
+ The Harm is probably (bacteremia). ,3
+ The Harm is probably (moderate pain). ,3
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (bacteremia). ,3
+ The Harm is probably (moderate pain). ,3
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (septic). ,4
+ The Harm is probably (shock). ,4
+ The Harm is probably (organ injury). ,4
+ The Harm is probably (bacteremia). ,3
+ The Harm is probably (moderate cellulitis). ,3
+ The Harm is probably (organ inflammation (reversible)). ,3
+ The Harm is probably (mild cellulitis). ,2
+ The Harm is probably (localized skin swelling). ,2
+ The Harm is probably (redness). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (localized skin swelling). ,2
+ The Harm is probably (redness). ,2
+ The Harm is probably (localized skin swelling). ,2
+ The Harm is probably (redness). ,2
+ The Harm is probably (mild cellulitis). ,2
+ The Harm is probably (systemic infection from virus bacteria or other infectious agents). ,3
+ The Harm is probably (mild cellulitis). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (systemic infection from virus bacteria or other infectious agents). ,3
+ The Harm is probably (mild cellulitis). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (systemic infection from virus bacteria or other infectious agents). ,3
+ The Harm is probably (mild cellulitis). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (infections from viral bacteria protozoan and other infectious agents). ,3
+ The Harm is probably (infections from viral bacteria protozoan and other infectious agents). ,3
+ The Harm is probably (infections from viral bacteria protozoan and other infectious agents). ,3
+ The Harm is probably (infections from viral bacteria protozoan and other infectious agents). ,3
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (head trauma with cns). ,4
+ The Harm is probably (injury). ,4
+ The Harm is probably (fracture). ,3
+ The Harm is probably (sprain). ,3
+ The Harm is probably (strain). ,3
+ The Harm is probably (laceration). ,3
+ The Harm is probably (moderate pain). ,3
+ The Harm is probably (bruise). ,2
+ The Harm is probably (scrape). ,2
+ The Harm is probably (skin abrasion). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (bruise). ,2
+ The Harm is probably (scrape). ,2
+ The Harm is probably (skin abrasion). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (bruise). ,2
+ The Harm is probably (scrape). ,2
+ The Harm is probably (skin abrasion). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (bruise). ,2
+ The Harm is probably (scrape). ,2
+ The Harm is probably (skin abrasion). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (bruise). ,2
+ The Harm is probably (scrape). ,2
+ The Harm is probably (skin abrasion). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (bruise). ,2
+ The Harm is probably (scrape). ,2
+ The Harm is probably (skin abrasion). ,2
+ The Harm is probably (bruise). ,2
+ The Harm is probably (scrape). ,2
+ The Harm is probably (skin abrasion). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (skin abrasion). ,2
+ The Harm is probably (mild bruising pain). ,2
+ The Harm is probably (skin integrity compromised). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (hematoma). ,3
+ The Harm is probably (moderate pain). ,3
+ The Harm is probably (moderate cellulitis). ,3
+ The Harm is probably (bruise). ,3
+ The Harm is probably (skin abrasion). ,3
+ The Harm is probably (mild pain). ,3
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (hematoma). ,3
+ The Harm is probably (moderate pain). ,3
+ The Harm is probably (moderate cellulitis). ,3
+ The Harm is probably (bruise). ,3
+ The Harm is probably (skin abrasion). ,3
+ The Harm is probably (mild pain). ,3
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (hypoxic organ injury). ,4
+ The Harm is probably (severe respiratory distress). ,4
+ The Harm is probably (esophageal or respiratory airway obstruction). ,3
+ The Harm is probably (gastric foreign body). ,3
+ The Harm is probably (coughing or gagging). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (mild to moderate respiratory distress). ,3
+ The Harm is probably (moderate toxic effects such as seizures abdominal pain). ,3
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (mild toxic effects such as fatigue sleepiness headaches eye irritation skin rashes). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (mild to moderate respiratory distress). ,3
+ The Harm is probably (moderate toxic effects such as seizures abdominal pain). ,3
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (mild toxic effects such as fatigue sleepiness headaches eye irritation skin rashes). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (mild toxic effects such as fatigue sleepiness headaches eye irritation skin rashes). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (mild toxic effects such as fatigue sleepiness headaches eye irritation skin rashes). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (mild toxic effects such as fatigue sleepiness headaches eye irritation skin rashes). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (hypovolemic shock). ,4
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (mild to moderate hypovolemia). ,3
+ The Harm is probably (significant bleeding requiring transfusion). ,3
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (hypovolemic shock). ,4
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (mild to moderate hypovolemia). ,3
+ The Harm is probably (significant bleeding requiring transfusion). ,3
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (pulmonary embolism). ,4
+ The Harm is probably (septic shock). ,4
+ The Harm is probably (severe hyperglycemia). ,4
+ The Harm is probably (severe hypertension). ,4
+ The Harm is probably (severe hypoglycemia). ,4
+ The Harm is probably (severe hypotension). ,4
+ The Harm is probably (severe arrhythmias). ,4
+ The Harm is probably (severe pain). ,4
+ The Harm is probably (mild to moderate arrhythmia). ,3
+ The Harm is probably (moderate hyperglycemia). ,3
+ The Harm is probably (mild to moderate hypertension). ,3
+ The Harm is probably (moderate hypoglycemia). ,3
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (moderate pain). ,3
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (mild hyperglycemia). ,2
+ The Harm is probably (mild hypoglycemia). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (pulmonary embolism). ,4
+ The Harm is probably (septic shock). ,4
+ The Harm is probably (severe hyperglycemia). ,4
+ The Harm is probably (severe hypoglycemia). ,4
+ The Harm is probably (severe hypertension). ,4
+ The Harm is probably (severe hypotension). ,4
+ The Harm is probably (severe arrhythmias). ,4
+ The Harm is probably (severe pain). ,4
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (moderate hyperglycemia). ,3
+ The Harm is probably (moderate hypoglycemia). ,3
+ The Harm is probably (moderate pain). ,3
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (mild hyperglycemia). ,2
+ The Harm is probably (mild hypoglycemia). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (pulmonary embolism). ,4
+ The Harm is probably (septic shock). ,4
+ The Harm is probably (severe hyperglycemia severe hypoglycemia). ,4
+ The Harm is probably (severe hypertension). ,4
+ The Harm is probably (severe hypotension). ,4
+ The Harm is probably (severe arrhythmias). ,4
+ The Harm is probably (severe pain). ,4
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (moderate hyperglycemia). ,3
+ The Harm is probably (moderate hypoglycemia). ,3
+ The Harm is probably (moderate pain). ,3
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (mild hyperglycemia). ,2
+ The Harm is probably (mild hypoglycemia). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (moderate hyperglycemia). ,3
+ The Harm is probably (moderate hypoglycemia). ,3
+ The Harm is probably (moderate pain). ,3
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (mild hyperglycemia). ,2
+ The Harm is probably (mild hypoglycemia). ,2
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (mild hyperglycemia). ,2
+ The Harm is probably (mild hypoglycemia). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (mild hyperglycemia). ,2
+ The Harm is probably (mild hypoglycemia). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (mild hyperglycemia). ,2
+ The Harm is probably (mild hypoglycemia). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (mild hyperglycemia). ,2
+ The Harm is probably (mild hypoglycemia). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (pulmonary embolism). ,4
+ The Harm is probably (septic shock). ,4
+ The Harm is probably (severe hyperglycemia). ,4
+ The Harm is probably (severe hypoglycemia). ,4
+ The Harm is probably (severe hypertension). ,4
+ The Harm is probably (severe hypotension). ,4
+ The Harm is probably (severe arrhythmias). ,4
+ The Harm is probably (severe pain). ,4
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (moderate hyperglycemia). ,3
+ The Harm is probably (moderate hypoglycemia). ,3
+ The Harm is probably (moderate pain). ,3
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (mild hyperglycemia). ,2
+ The Harm is probably (mild hypoglycemia). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (severe burn). ,4
+ The Harm is probably (edema). ,4
+ The Harm is probably (local tissue necrosis). ,4
+ The Harm is probably (severe pain). ,4
+ The Harm is probably (hematoma). ,3
+ The Harm is probably (moderate burn). ,3
+ The Harm is probably (edema). ,3
+ The Harm is probably (moderate pain). ,3
+ The Harm is probably (burning sensation). ,2
+ The Harm is probably (mild burn). ,2
+ The Harm is probably (edema). ,2
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (hematoma). ,3
+ The Harm is probably (moderate pain). ,3
+ The Harm is probably (skin irritation). ,3
+ The Harm is probably (bruising). ,3
+ The Harm is probably (mild to moderate cellulitis). ,3
+ The Harm is probably (hematoma pain mild). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (hematoma). ,3
+ The Harm is probably (moderate pain). ,3
+ The Harm is probably (skin irritation). ,3
+ The Harm is probably (bruising). ,3
+ The Harm is probably (mild to moderate cellulitis). ,3
+ The Harm is probably (hematoma). ,2
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (pulmonary embolism). ,4
+ The Harm is probably (septic shock). ,4
+ The Harm is probably (severe hyperglycemia). ,4
+ The Harm is probably (severe hypertension). ,4
+ The Harm is probably (severe hypoglycemia). ,4
+ The Harm is probably (severe hypotension). ,4
+ The Harm is probably (severe arrhythmias). ,4
+ The Harm is probably (severe pain). ,4
+ The Harm is probably (mild to moderate arrhythmia). ,3
+ The Harm is probably (moderate hyperglycemia). ,3
+ The Harm is probably (mild to moderate hypertension). ,3
+ The Harm is probably (moderate hypoglycemia). ,3
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (moderate pain). ,3
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (mild hyperglycemia). ,2
+ The Harm is probably (mild hypoglycemia). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (pulmonary embolism). ,4
+ The Harm is probably (septic shock). ,4
+ The Harm is probably (severe hyperglycemia). ,4
+ The Harm is probably (severe hypertension). ,4
+ The Harm is probably (severe hypoglycemia). ,4
+ The Harm is probably (severe hypotension). ,4
+ The Harm is probably (severe arrhythmias). ,4
+ The Harm is probably (severe pain). ,4
+ The Harm is probably (mild to moderate arrhythmia). ,3
+ The Harm is probably (moderate hyperglycemia). ,3
+ The Harm is probably (mild to moderate hypertension). ,3
+ The Harm is probably (moderate hypoglycemia). ,3
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (moderate pain). ,3
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (mild hyperglycemia). ,2
+ The Harm is probably (mild hypoglycemia). ,2
+ The Harm is probably (mild to moderate arrhythmia). ,3
+ The Harm is probably (moderate hyperglycemia). ,3
+ The Harm is probably (mild to moderate hypertension). ,3
+ The Harm is probably (moderate hypoglycemia). ,3
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (moderate pain). ,3
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (mild hyperglycemia). ,2
+ The Harm is probably (mild hypoglycemia). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (moderate toxic effects such as seizures abdominal pain). ,3
+ The Harm is probably (mild toxic effects such as fatigue sleepiness headaches eye irritation skin rashes). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (pulmonary embolus). ,4
+ The Harm is probably (stroke). ,4
+ The Harm is probably (mild to moderate respiratory distress). ,3
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (pulmonary embolus). ,4
+ The Harm is probably (stroke). ,4
+ The Harm is probably (mild to moderate respiratory distress). ,3
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (contact dermatitis with localized allergic reaction). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (contact dermatitis with localized allergic reaction). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (contact dermatitis with localized allergic reaction). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (anaphylaxis). ,5
+ The Harm is probably (severe respiratory distress stevens johnson syndrome). ,4
+ The Harm is probably (mild to moderate respiratory distress). ,3
+ The Harm is probably (urticaria). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (anaphylaxis). ,5
+ The Harm is probably (severe respiratory distress). ,4
+ The Harm is probably (stevens johnson syndrome). ,4
+ The Harm is probably (mild to moderate respiratory distress). ,3
+ The Harm is probably (urticaria). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (anaphylaxis). ,5
+ The Harm is probably (severe respiratory distress). ,4
+ The Harm is probably (stevens johnson syndrome). ,4
+ The Harm is probably (mild to moderate respiratory distress). ,3
+ The Harm is probably (urticaria). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (patient is hemodynamically stable.). ,3
+ The Harm is probably (patient is hemodynamically stable.). ,3
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (septic shock). ,4
+ The Harm is probably (organ injury). ,4
+ The Harm is probably (bacteremia). ,3
+ The Harm is probably (moderate pain). ,3
+ The Harm is probably (mild phlebitis). ,2
+ The Harm is probably (local reaction/ infection). ,2
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (septic shock). ,4
+ The Harm is probably (organ injury). ,4
+ The Harm is probably (bacteremia). ,3
+ The Harm is probably (moderate pain). ,3
+ The Harm is probably (mild phlebitis). ,2
+ The Harm is probably (local reaction/infection). ,2
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (septic shock). ,4
+ The Harm is probably (organ injury). ,4
+ The Harm is probably (bacteremia). ,3
+ The Harm is probably (moderate pain). ,3
+ The Harm is probably (mild phlebitis). ,2
+ The Harm is probably (local reaction/ infection). ,2
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (septic shock). ,4
+ The Harm is probably (organ injury). ,4
+ The Harm is probably (bacteremia). ,3
+ The Harm is probably (moderate pain). ,3
+ The Harm is probably (mild phlebitis). ,2
+ The Harm is probably (local reaction/ infection). ,2
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (septic shock). ,4
+ The Harm is probably (organ injury). ,4
+ The Harm is probably (bacteremia). ,3
+ The Harm is probably (moderate pain). ,3
+ The Harm is probably (mild phlebitis). ,2
+ The Harm is probably (local reaction/ infection). ,2
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (temporary discomfort). ,3
+ The Harm is probably (systemic infection from virus bacteria or other infectious agents). ,3
+ The Harm is probably (mild cellulitis). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (systemic infection from virus bacteria or other infectious agents). ,3
+ The Harm is probably (mild cellulitis). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (systemic infection from virus bacteria or other infectious agents). ,3
+ The Harm is probably (mild cellulitis). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (septic shock). ,4
+ The Harm is probably (organ injury). ,4
+ The Harm is probably (bacteremia). ,3
+ The Harm is probably (moderate cellulitis). ,3
+ The Harm is probably (organ inflammation (reversible)). ,3
+ The Harm is probably (mild cellulitis). ,2
+ The Harm is probably (localized skin swelling redness). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (septic shock). ,4
+ The Harm is probably (organ injury). ,4
+ The Harm is probably (bacteremia). ,3
+ The Harm is probably (moderate cellulitis). ,3
+ The Harm is probably (organ inflammation (reversible)). ,3
+ The Harm is probably (mild cellulitis). ,2
+ The Harm is probably (localized skin swelling redness). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (pulmonary embolism). ,4
+ The Harm is probably (myocardial infarction). ,4
+ The Harm is probably (stroke). ,4
+ The Harm is probably (extremity swelling). ,3
+ The Harm is probably (moderate pain). ,3
+ The Harm is probably (paresthesias). ,3
+ The Harm is probably (thrombophlebitis or pain). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (severe hemolytic anemia). ,4
+ The Harm is probably (severe hyperkalemia). ,4
+ The Harm is probably (hypotension). ,4
+ The Harm is probably (congestive heart failure). ,4
+ The Harm is probably (acute kidney injury). ,4
+ The Harm is probably (mild to moderate hemolytic anemia). ,3
+ The Harm is probably (mild to moderate hyperkalemia). ,3
+ The Harm is probably (fever). ,3
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (mild to moderate tachycardia). ,3
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (mild to moderate tachycardia). ,3
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (mild to moderate tachycardia). ,3
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (mild to moderate tachycardia). ,3
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (mild to moderate tachycardia). ,3
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (mild to moderate tachycardia). ,3
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (mild to moderate tachycardia). ,3
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (mild to moderate tachycardia). ,3
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (mild to moderate tachycardia). ,3
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (severe arrhythmias). ,4
+ The Harm is probably (severe hypertension). ,4
+ The Harm is probably (severe hypotension). ,4
+ The Harm is probably (status epilepticus). ,4
+ The Harm is probably (mild to moderate arrhythmia). ,3
+ The Harm is probably (mild to moderate hypertension). ,3
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (seizure). ,3
+ The Harm is probably (severe pain). ,3
+ The Harm is probably (mild to moderate pain). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (severe arrhythmias). ,4
+ The Harm is probably (severe hypertension). ,4
+ The Harm is probably (severe hypotension). ,4
+ The Harm is probably (status epilepticus). ,4
+ The Harm is probably (mild to moderate arrhythmia). ,3
+ The Harm is probably (mild to moderate hypertension). ,3
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (seizure). ,3
+ The Harm is probably (severe pain). ,3
+ The Harm is probably (mild to moderate pain). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (severe arrhythmias). ,4
+ The Harm is probably (severe hypertension). ,4
+ The Harm is probably (severe hypotension). ,4
+ The Harm is probably (status epilepticus). ,4
+ The Harm is probably (mild to moderate arrhythmia). ,3
+ The Harm is probably (mild to moderate hypertension). ,3
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (seizure). ,3
+ The Harm is probably (severe pain). ,3
+ The Harm is probably (mild to moderate pain). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (severe arrhythmias). ,4
+ The Harm is probably (severe hypertension). ,4
+ The Harm is probably (severe hypotension). ,4
+ The Harm is probably (status epilepticus). ,4
+ The Harm is probably (mild to moderate arrhythmia). ,3
+ The Harm is probably (mild to moderate hypertension). ,3
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (seizure). ,3
+ The Harm is probably (severe pain). ,3
+ The Harm is probably (mild to moderate pain). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (severe arrhythmias). ,4
+ The Harm is probably (severe hypertension). ,4
+ The Harm is probably (severe hypotension). ,4
+ The Harm is probably (status epilepticus). ,4
+ The Harm is probably (mild to moderate arrhythmia). ,3
+ The Harm is probably (mild to moderate hypertension). ,3
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (seizure). ,3
+ The Harm is probably (severe pain). ,3
+ The Harm is probably (mild to moderate pain). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (severe arrhythmias). ,4
+ The Harm is probably (severe hypertension). ,4
+ The Harm is probably (severe hypotension). ,4
+ The Harm is probably (status epilepticus). ,4
+ The Harm is probably (mild to moderate arrhythmia). ,3
+ The Harm is probably (mild to moderate hypertension). ,3
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (seizure). ,3
+ The Harm is probably (severe pain). ,3
+ The Harm is probably (mild to moderate pain). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (severe arrhythmias). ,4
+ The Harm is probably (severe hypertension). ,4
+ The Harm is probably (severe hypotension). ,4
+ The Harm is probably (status epilepticus). ,4
+ The Harm is probably (mild to moderate arrhythmia). ,3
+ The Harm is probably (mild to moderate hypertension). ,3
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (seizure). ,3
+ The Harm is probably (severe pain). ,3
+ The Harm is probably (mild to moderate pain). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (pulmonary embolism). ,4
+ The Harm is probably (septic shock). ,4
+ The Harm is probably (severe hyperglycemia). ,4
+ The Harm is probably (severe hypertension). ,4
+ The Harm is probably (severe hypoglycemia). ,4
+ The Harm is probably (severe hypotension). ,4
+ The Harm is probably (severe arrhythmia). ,4
+ The Harm is probably (severe pain). ,4
+ The Harm is probably (mild to moderate arrhythmia). ,3
+ The Harm is probably (moderate hyperglycemia). ,3
+ The Harm is probably (mild to moderate hypertension). ,3
+ The Harm is probably (moderate hypoglycemia). ,3
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (moderate pain). ,3
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (mild hyperglycemia). ,2
+ The Harm is probably (mild hypoglycemia). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (head trauma with cns injury). ,4
+ The Harm is probably (fracture sprain strain laceration). ,3
+ The Harm is probably (moderate pain). ,3
+ The Harm is probably (bruise). ,2
+ The Harm is probably (skin abrasion). ,2
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (head trauma with cns injury). ,4
+ The Harm is probably (fracture sprain strain laceration). ,3
+ The Harm is probably (moderate pain). ,3
+ The Harm is probably (bruise). ,2
+ The Harm is probably (skin abrasion). ,2
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (moderate toxic effects such as seizures abdominal pain). ,3
+ The Harm is probably (mild toxic effects such as fatigue sleepiness headaches eye irritation skin rashes). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (moderate toxic effects such as seizures abdominal pain). ,3
+ The Harm is probably (mild toxic effects such as fatigue sleepiness headaches eye irritation skin rashes). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (hypovolemic shock). ,4
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (mild to moderate hypovolemia). ,3
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (hypovolemic shock). ,4
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (mild to moderate hypovolemia). ,3
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (hypovolemic shock). ,4
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (mild to moderate hypovolemia). ,3
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (hypovolemic shock). ,4
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (mild to moderate hypovolemia). ,3
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (pulmonary embolism). ,4
+ The Harm is probably (myocardial infarction). ,4
+ The Harm is probably (stroke). ,4
+ The Harm is probably (extremity swelling). ,3
+ The Harm is probably (moderate pain). ,3
+ The Harm is probably (paresthesias). ,3
+ The Harm is probably (thrombophlebitis). ,2
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (pulmonary embolism). ,4
+ The Harm is probably (myocardial infarction). ,4
+ The Harm is probably (stroke). ,4
+ The Harm is probably (extremity swelling). ,3
+ The Harm is probably (moderate pain). ,3
+ The Harm is probably (paresthesias). ,3
+ The Harm is probably (thrombophlebitis). ,2
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (pulmonary embolism). ,4
+ The Harm is probably (myocardial infarction). ,4
+ The Harm is probably (stroke). ,4
+ The Harm is probably (extremity swelling). ,3
+ The Harm is probably (moderate pain). ,3
+ The Harm is probably (paresthesias). ,3
+ The Harm is probably (thrombophlebitis). ,2
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (hypoxic organ injury respiratory distress-severe). ,4
+ The Harm is probably (esophageal or respiratory airway obstruction gastric foreign body). ,3
+ The Harm is probably (coughing or gagging). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (paralysis). ,4
+ The Harm is probably (organ failure/injury). ,4
+ The Harm is probably (malignancy). ,4
+ The Harm is probably (severe hypotension). ,4
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (moderate inflammation (e.g. phlebitis organ)). ,3
+ The Harm is probably (moderate pain). ,3
+ The Harm is probably (fever). ,3
+ The Harm is probably (mild inflammation (e.g. phlebitis organ)). ,2
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (paralysis). ,4
+ The Harm is probably (organ failure/injury). ,4
+ The Harm is probably (malignancy). ,4
+ The Harm is probably (severe hypotension). ,4
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (moderate inflammation (e.g. phlebitis organ)). ,3
+ The Harm is probably (moderate pain). ,3
+ The Harm is probably (fever). ,3
+ The Harm is probably (mild inflammation (e.g. phlebitis organ)). ,2
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (paralysis). ,4
+ The Harm is probably (organ failure/injury). ,4
+ The Harm is probably (malignancy). ,4
+ The Harm is probably (severe hypotension). ,4
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (moderate inflammation (e.g. phlebitis organ)). ,3
+ The Harm is probably (moderate pain). ,3
+ The Harm is probably (fever). ,3
+ The Harm is probably (mild inflammation (e.g. phlebitis organ)). ,2
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (pulmonary embolus). ,4
+ The Harm is probably (stroke). ,4
+ The Harm is probably (respiratory distress mild to moderate). ,3
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (contact dermatitis with localized allergic reaction). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (septic shock). ,4
+ The Harm is probably (organ injury). ,4
+ The Harm is probably (bacteremia). ,3
+ The Harm is probably (pain moderate). ,3
+ The Harm is probably (mild phlebitis). ,2
+ The Harm is probably (local reaction/infection). ,2
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (septic shock). ,4
+ The Harm is probably (organ injury). ,4
+ The Harm is probably (bacteremia). ,3
+ The Harm is probably (moderate pain). ,3
+ The Harm is probably (mild phlebitis). ,2
+ The Harm is probably (local reaction/infection). ,2
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (septic shock). ,4
+ The Harm is probably (organ injury). ,4
+ The Harm is probably (bacteremia). ,3
+ The Harm is probably (moderate pain). ,3
+ The Harm is probably (mild phlebitis). ,2
+ The Harm is probably (local reaction/infection). ,2
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (septic shock). ,4
+ The Harm is probably (organ injury). ,4
+ The Harm is probably (bacteremia). ,3
+ The Harm is probably (moderate cellulitis). ,3
+ The Harm is probably (organ inflammation (reversible)). ,3
+ The Harm is probably (mild cellulitis). ,2
+ The Harm is probably (localized skin swelling redness). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (severe burn). ,4
+ The Harm is probably (sepsis). ,4
+ The Harm is probably (severe pain). ,4
+ The Harm is probably (moderate burn). ,3
+ The Harm is probably (moderate pain). ,3
+ The Harm is probably (mild burn). ,2
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (severe burn). ,4
+ The Harm is probably (sepsis). ,4
+ The Harm is probably (severe pain). ,4
+ The Harm is probably (moderate burn). ,3
+ The Harm is probably (moderate pain). ,3
+ The Harm is probably (mild burn). ,2
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (severe hemolytic anemia). ,4
+ The Harm is probably (severe hyperkalemia). ,4
+ The Harm is probably (hypotension). ,4
+ The Harm is probably (congestive heart failure). ,4
+ The Harm is probably (acute kidney injury). ,4
+ The Harm is probably (mild to moderate hemolytic anemia). ,3
+ The Harm is probably (mild to moderate hyperkalemia). ,3
+ The Harm is probably (fever). ,3
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (organ damage). ,4
+ The Harm is probably (reproductive system dysfunction). ,3
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (mild to moderate arrhythmia). ,3
+ The Harm is probably (mild to moderate hypertension). ,3
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (seizure). ,3
+ The Harm is probably (severe pain). ,3
+ The Harm is probably (mild to moderate pain). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (mild to moderate arrhythmia). ,3
+ The Harm is probably (mild to moderate hypertension). ,3
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (seizure). ,3
+ The Harm is probably (severe pain). ,3
+ The Harm is probably (mild to moderate pain). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (mild to moderate arrhythmia). ,3
+ The Harm is probably (mild to moderate hypertension). ,3
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (seizure). ,3
+ The Harm is probably (severe pain). ,3
+ The Harm is probably (mild to moderate pain). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (mild to moderate arrhythmia). ,3
+ The Harm is probably (mild to moderate hypertension). ,3
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (seizure). ,3
+ The Harm is probably (severe pain). ,3
+ The Harm is probably (mild to moderate pain). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (mild to moderate respiratory distress). ,3
+ The Harm is probably (moderate toxic effects such as seizures abdominal pain). ,3
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (mild toxic effects such as fatigue sleepiness headaches eye irritation skin rashes). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (mild to moderate respiratory distress). ,3
+ The Harm is probably (moderate toxic effects such as seizures abdominal pain). ,3
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (mild toxic effects such as fatigue sleepiness headaches eye irritation skin rashes). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (mild to moderate respiratory distress). ,3
+ The Harm is probably (moderate toxic effects such as seizures abdominal pain). ,3
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (mild toxic effects such as fatigue sleepiness headaches eye irritation skin rashes). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (pulmonary embolism). ,4
+ The Harm is probably (myocardial infarction). ,4
+ The Harm is probably (stroke). ,4
+ The Harm is probably (extremity swelling). ,3
+ The Harm is probably (moderate pain). ,3
+ The Harm is probably (paresthesias). ,3
+ The Harm is probably (thrombophlebitis). ,2
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (pulmonary embolism). ,4
+ The Harm is probably (myocardial infarction). ,4
+ The Harm is probably (stroke). ,4
+ The Harm is probably (extremity swelling). ,3
+ The Harm is probably (moderate pain). ,3
+ The Harm is probably (paresthesias). ,3
+ The Harm is probably (thrombophlebitis). ,2
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (skin abrasion). ,2
+ The Harm is probably (bruising). ,2
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (skin integrity compromised). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (skin abrasion). ,2
+ The Harm is probably (bruising). ,2
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (skin integrity compromised). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (paralysis). ,4
+ The Harm is probably (organ failure/injury). ,4
+ The Harm is probably (malignancy). ,4
+ The Harm is probably (severe hypotension). ,4
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (moderate inflammation (e.g. phlebitis organ)). ,3
+ The Harm is probably (moderate pain). ,3
+ The Harm is probably (fever). ,3
+ The Harm is probably (mild inflammation (e.g. phlebitis organ)). ,2
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (temporary discomfort). ,2
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (paralysis). ,4
+ The Harm is probably (organ failure/injury). ,4
+ The Harm is probably (malignancy). ,4
+ The Harm is probably (severe hypotension). ,4
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (moderate inflammation (e.g. phlebitis organ)). ,3
+ The Harm is probably (moderate pain). ,3
+ The Harm is probably (fever). ,3
+ The Harm is probably (mild inflammation (e.g. phlebitis organ)). ,2
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (paralysis). ,4
+ The Harm is probably (organ failure/injury). ,4
+ The Harm is probably (malignancy). ,4
+ The Harm is probably (severe hypotension). ,4
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (moderate inflammation (e.g. phlebitis organ)). ,3
+ The Harm is probably (moderate pain). ,3
+ The Harm is probably (fever). ,3
+ The Harm is probably (mild inflammation (e.g. phlebitis organ)). ,2
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (pulmonary embolus stroke). ,4
+ The Harm is probably (respiratory distress mild to moderate). ,3
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (pulmonary embolus stroke). ,4
+ The Harm is probably (respiratory distress mild to moderate). ,3
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (contact dermatitis (skin inflammation) with systemic allergic reaction eye inflammation). ,3
+ The Harm is probably (contact dermatitis with localized allergic reaction). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (contact dermatitis (skin inflammation) with systemic allergic reaction eye inflammation). ,3
+ The Harm is probably (contact dermatitis with localized allergic reaction). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (contact dermatitis (skin inflammation) with systemic allergic reaction eye inflammation). ,3
+ The Harm is probably (contact dermatitis with localized allergic reaction). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (contact dermatitis (skin inflammation) with systemic allergic reaction eye inflammation). ,3
+ The Harm is probably (contact dermatitis with localized allergic reaction). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (contact dermatitis (skin inflammation) with systemic allergic reaction eye inflammation). ,3
+ The Harm is probably (contact dermatitis with localized allergic reaction). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (contact dermatitis (skin inflammation) with systemic allergic reaction eye inflammation). ,3
+ The Harm is probably (contact dermatitis with localized allergic reaction). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (contact dermatitis (skin inflammation) with systemic allergic reaction eye inflammation). ,3
+ The Harm is probably (contact dermatitis with localized allergic reaction). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (anaphylaxis). ,5
+ The Harm is probably (respiratory distress severe stevens johnson syndrome). ,4
+ The Harm is probably (local allergic reaction/dermatitis organ inflammation). ,3
+ The Harm is probably (urticaria pain mild). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (anaphylaxis). ,5
+ The Harm is probably (severe respiratory distress). ,4
+ The Harm is probably (stevens johnson syndrome). ,4
+ The Harm is probably (local allergic reaction/dermatitis). ,3
+ The Harm is probably (organ inflammation). ,3
+ The Harm is probably (urticaria). ,2
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (anaphylaxis). ,5
+ The Harm is probably (severe respiratory distress). ,4
+ The Harm is probably (stevens johnson syndrome). ,4
+ The Harm is probably (local allergic reaction/dermatitis). ,3
+ The Harm is probably (organ inflammation). ,3
+ The Harm is probably (urticaria). ,2
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (anaphylaxis). ,5
+ The Harm is probably (severe respiratory distress). ,4
+ The Harm is probably (stevens johnson syndrome). ,4
+ The Harm is probably (local allergic reaction/dermatitis). ,3
+ The Harm is probably (organ inflammation). ,3
+ The Harm is probably (urticaria). ,2
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (severe burn). ,4
+ The Harm is probably (sepsis). ,4
+ The Harm is probably (severe pain). ,4
+ The Harm is probably (moderate burn). ,3
+ The Harm is probably (moderate pain). ,3
+ The Harm is probably (mild burn). ,2
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (severe burn). ,4
+ The Harm is probably (sepsis). ,4
+ The Harm is probably (severe pain). ,4
+ The Harm is probably (moderate burn moderate pain). ,3
+ The Harm is probably (mild burn). ,2
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (severe burn). ,4
+ The Harm is probably (sepsis). ,4
+ The Harm is probably (severe pain). ,4
+ The Harm is probably (moderate burn moderate pain). ,3
+ The Harm is probably (mild burn). ,2
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (severe burn). ,4
+ The Harm is probably (sepsis). ,4
+ The Harm is probably (severe pain). ,4
+ The Harm is probably (moderate burn moderate pain). ,3
+ The Harm is probably (mild burn). ,2
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (severe burn). ,4
+ The Harm is probably (sepsis). ,4
+ The Harm is probably (severe pain). ,4
+ The Harm is probably (moderate burn moderate pain). ,3
+ The Harm is probably (mild burn). ,2
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death cardiopulmonary arrest). ,5
+ The Harm is probably (hemolytic anemia severe hyperkalemia severe hypotension congestive heart failure acute kidney injury). ,4
+ The Harm is probably (hemolytic anemia mild to moderate hyperkalemia mild to moderate fever). ,3
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (organ damage). ,4
+ The Harm is probably (reproductive system dysfunction). ,3
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (organ damage). ,4
+ The Harm is probably (reproductive system dysfunction). ,3
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (paralysis). ,4
+ The Harm is probably (organ failure/injury). ,4
+ The Harm is probably (malignancy). ,4
+ The Harm is probably (severe hypertension). ,4
+ The Harm is probably (severe hypotension). ,4
+ The Harm is probably (mild to moderate hypertension). ,3
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (moderate burn). ,3
+ The Harm is probably (moderate phlebitis). ,3
+ The Harm is probably (moderate pain). ,3
+ The Harm is probably (fever). ,3
+ The Harm is probably (reproductive system dysfunction). ,3
+ The Harm is probably (mild burn). ,2
+ The Harm is probably (mild phlebitis). ,2
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (paralysis). ,4
+ The Harm is probably (organ failure/injury). ,4
+ The Harm is probably (malignancy). ,4
+ The Harm is probably (severe hypertension). ,4
+ The Harm is probably (severe hypotension). ,4
+ The Harm is probably (mild to moderate hypertension). ,3
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (moderate burn). ,3
+ The Harm is probably (moderate phlebitis). ,3
+ The Harm is probably (moderate pain). ,3
+ The Harm is probably (fever). ,3
+ The Harm is probably (reproductive system dysfunction). ,3
+ The Harm is probably (mild burn). ,2
+ The Harm is probably (mild phlebitis). ,2
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (paralysis). ,4
+ The Harm is probably (organ failure/injury). ,4
+ The Harm is probably (malignancy). ,4
+ The Harm is probably (severe hypertension). ,4
+ The Harm is probably (severe hypotension). ,4
+ The Harm is probably (mild to moderate hypertension). ,3
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (moderate burn). ,3
+ The Harm is probably (moderate phlebitis). ,3
+ The Harm is probably (moderate pain). ,3
+ The Harm is probably (fever). ,3
+ The Harm is probably (reproductive system dysfunction). ,3
+ The Harm is probably (mild burn). ,2
+ The Harm is probably (mild phlebitis). ,2
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (paralysis). ,4
+ The Harm is probably (organ failure/injury). ,4
+ The Harm is probably (malignancy). ,4
+ The Harm is probably (severe hypertension). ,4
+ The Harm is probably (severe hypotension). ,4
+ The Harm is probably (mild to moderate hypertension). ,3
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (moderate burn). ,3
+ The Harm is probably (moderate phlebitis). ,3
+ The Harm is probably (moderate pain). ,3
+ The Harm is probably (fever). ,3
+ The Harm is probably (reproductive system dysfunction). ,3
+ The Harm is probably (mild burn). ,2
+ The Harm is probably (mild phlebitis). ,2
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (hypovolemic shock). ,4
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (mild to moderate hypovolemia). ,3
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (hypovolemic shock). ,4
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (mild to moderate hypovolemia). ,3
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (hypovolemic shock). ,4
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (mild to moderate hypovolemia). ,3
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (hypovolemic shock). ,4
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (mild to moderate hypovolemia). ,3
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (hypovolemic shock). ,4
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (mild to moderate hypovolemia). ,3
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (hypovolemic shock). ,4
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (mild to moderate hypovolemia). ,3
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (hypovolemic shock). ,4
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (mild to moderate hypovolemia). ,3
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (mild to moderate arrhythmia). ,3
+ The Harm is probably (mild to moderate hypertension). ,3
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (seizure). ,3
+ The Harm is probably (severe pain). ,3
+ The Harm is probably (mild to moderate pain). ,2
+ The Harm is probably (temporary discomfort/ user discomfort). ,1
+ The Harm is probably (mild to moderate arrhythmia). ,3
+ The Harm is probably (mild to moderate hypertension). ,3
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (seizure). ,3
+ The Harm is probably (severe pain). ,3
+ The Harm is probably (mild to moderate pain). ,2
+ The Harm is probably (temporary discomfort/ user discomfort). ,1
+ The Harm is probably (mild to moderate arrhythmia). ,3
+ The Harm is probably (mild to moderate hypertension). ,3
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (seizure). ,3
+ The Harm is probably (severe pain). ,3
+ The Harm is probably (mild to moderate pain). ,2
+ The Harm is probably (temporary discomfort/ user discomfort). ,1
+ The Harm is probably (mild to moderate arrhythmia). ,3
+ The Harm is probably (mild to moderate hypertension). ,3
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (seizure). ,3
+ The Harm is probably (severe pain). ,3
+ The Harm is probably (mild to moderate pain). ,2
+ The Harm is probably (temporary discomfort/ user discomfort). ,1
+ The Harm is probably (mild to moderate arrhythmia). ,3
+ The Harm is probably (mild to moderate hypertension). ,3
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (seizure). ,3
+ The Harm is probably (severe pain). ,3
+ The Harm is probably (mild to moderate pain). ,2
+ The Harm is probably (temporary discomfort/ user discomfort). ,1
+ The Harm is probably (mild to moderate arrhythmia). ,3
+ The Harm is probably (mild to moderate hypertension). ,3
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (seizure). ,3
+ The Harm is probably (severe pain). ,3
+ The Harm is probably (mild to moderate pain). ,2
+ The Harm is probably (temporary discomfort/ user discomfort). ,1
+ The Harm is probably (mild to moderate arrhythmia). ,3
+ The Harm is probably (mild to moderate hypertension). ,3
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (seizure). ,3
+ The Harm is probably (severe pain). ,3
+ The Harm is probably (mild to moderate pain). ,2
+ The Harm is probably (temporary discomfort/ user discomfort). ,1
+ The Harm is probably (mild to moderate arrhythmia). ,3
+ The Harm is probably (mild to moderate hypertension). ,3
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (seizure). ,3
+ The Harm is probably (severe pain). ,3
+ The Harm is probably (mild to moderate pain). ,2
+ The Harm is probably (temporary discomfort/ user discomfort). ,1
+ The Harm is probably (mild to moderate arrhythmia). ,3
+ The Harm is probably (mild to moderate hypertension). ,3
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (seizure). ,3
+ The Harm is probably (severe pain). ,3
+ The Harm is probably (mild to moderate pain). ,2
+ The Harm is probably (temporary discomfort/ user discomfort). ,1
+ The Harm is probably (mild to moderate arrhythmia). ,3
+ The Harm is probably (mild to moderate hypertension). ,3
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (seizure). ,3
+ The Harm is probably (severe pain). ,3
+ The Harm is probably (mild to moderate pain). ,2
+ The Harm is probably (temporary discomfort/ user discomfort). ,1
+ The Harm is probably (mild to moderate arrhythmia). ,3
+ The Harm is probably (mild to moderate hypertension). ,3
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (seizure). ,3
+ The Harm is probably (severe pain). ,3
+ The Harm is probably (mild to moderate pain). ,2
+ The Harm is probably (temporary discomfort/ user discomfort). ,1
+ The Harm is probably (mild to moderate arrhythmia). ,3
+ The Harm is probably (mild to moderate hypertension). ,3
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (seizure). ,3
+ The Harm is probably (severe pain). ,3
+ The Harm is probably (mild to moderate pain). ,2
+ The Harm is probably (temporary discomfort/ user discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (severe arrhythmias). ,4
+ The Harm is probably (severe hypertension). ,4
+ The Harm is probably (severe hypotension). ,4
+ The Harm is probably (status epilepticus). ,4
+ The Harm is probably (mild to moderate arrhythmia). ,3
+ The Harm is probably (mild to moderate hypertension). ,3
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (seizure). ,3
+ The Harm is probably (severe pain). ,3
+ The Harm is probably (mild to moderate pain). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (severe arrhythmias). ,4
+ The Harm is probably (severe hypertension). ,4
+ The Harm is probably (severe hypotension). ,4
+ The Harm is probably (status epilepticus). ,4
+ The Harm is probably (mild to moderate arrhythmia). ,3
+ The Harm is probably (mild to moderate hypertension). ,3
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (seizure). ,3
+ The Harm is probably (severe pain). ,3
+ The Harm is probably (mild to moderate pain). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (severe arrhythmias). ,4
+ The Harm is probably (severe hypertension). ,4
+ The Harm is probably (severe hypotension). ,4
+ The Harm is probably (status epilepticus). ,4
+ The Harm is probably (mild to moderate arrhythmia). ,3
+ The Harm is probably (mild to moderate hypertension). ,3
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (seizure). ,3
+ The Harm is probably (severe pain). ,3
+ The Harm is probably (mild to moderate pain). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (severe arrhythmias). ,4
+ The Harm is probably (severe hypertension). ,4
+ The Harm is probably (severe hypotension). ,4
+ The Harm is probably (status epilepticus). ,4
+ The Harm is probably (mild to moderate arrhythmia). ,3
+ The Harm is probably (mild to moderate hypertension). ,3
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (seizure). ,3
+ The Harm is probably (severe pain). ,3
+ The Harm is probably (mild to moderate pain). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (severe arrhythmias). ,4
+ The Harm is probably (severe hypertension). ,4
+ The Harm is probably (severe hypotension). ,4
+ The Harm is probably (status epilepticus). ,4
+ The Harm is probably (mild to moderate arrhythmia). ,3
+ The Harm is probably (mild to moderate hypertension). ,3
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (seizure). ,3
+ The Harm is probably (severe pain). ,3
+ The Harm is probably (mild to moderate pain). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (severe arrhythmias). ,4
+ The Harm is probably (severe hypertension). ,4
+ The Harm is probably (severe hypotension). ,4
+ The Harm is probably (status epilepticus). ,4
+ The Harm is probably (mild to moderate arrhythmia). ,3
+ The Harm is probably (mild to moderate hypertension). ,3
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (seizure). ,3
+ The Harm is probably (severe pain). ,3
+ The Harm is probably (mild to moderate pain). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (severe arrhythmias). ,4
+ The Harm is probably (severe hypertension). ,4
+ The Harm is probably (severe hypotension). ,4
+ The Harm is probably (status epilepticus). ,4
+ The Harm is probably (mild to moderate arrhythmia). ,3
+ The Harm is probably (mild to moderate hypertension). ,3
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (seizure). ,3
+ The Harm is probably (severe pain). ,3
+ The Harm is probably (mild to moderate pain). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (severe arrhythmias). ,4
+ The Harm is probably (severe hypertension). ,4
+ The Harm is probably (severe hypotension). ,4
+ The Harm is probably (status epilepticus). ,4
+ The Harm is probably (mild to moderate arrhythmia). ,3
+ The Harm is probably (mild to moderate hypertension). ,3
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (seizure). ,3
+ The Harm is probably (severe pain). ,3
+ The Harm is probably (mild to moderate pain). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (severe arrhythmias). ,4
+ The Harm is probably (severe hypertension). ,4
+ The Harm is probably (severe hypotension). ,4
+ The Harm is probably (status epilepticus). ,4
+ The Harm is probably (mild to moderate arrhythmia). ,3
+ The Harm is probably (mild to moderate hypertension). ,3
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (seizure). ,3
+ The Harm is probably (severe pain). ,3
+ The Harm is probably (mild to moderate pain). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (severe arrhythmias). ,4
+ The Harm is probably (severe hypertension). ,4
+ The Harm is probably (severe hypotension). ,4
+ The Harm is probably (status epilepticus). ,4
+ The Harm is probably (mild to moderate arrhythmia). ,3
+ The Harm is probably (mild to moderate hypertension). ,3
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (seizure). ,3
+ The Harm is probably (severe pain). ,3
+ The Harm is probably (mild to moderate pain). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (pulmonary embolism). ,4
+ The Harm is probably (myocardial infarction). ,4
+ The Harm is probably (stroke). ,4
+ The Harm is probably (extremity swelling pain). ,3
+ The Harm is probably (moderate paresthesias). ,3
+ The Harm is probably (thrombophlebitis or pain). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death cardiopulmonary arrest). ,5
+ The Harm is probably (pulmonary embolism myocardial infarction stroke). ,4
+ The Harm is probably (extremity swelling pain moderate paresthesias). ,3
+ The Harm is probably (thrombophlebitis pain mild). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death cardiopulmonary arrest). ,5
+ The Harm is probably (pulmonary embolism myocardial infarction stroke). ,4
+ The Harm is probably (extremity swelling pain moderate paresthesias). ,3
+ The Harm is probably (thrombophlebitis pain mild). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death cardiopulmonary arrest). ,5
+ The Harm is probably (pulmonary embolism myocardial infarction stroke). ,4
+ The Harm is probably (extremity swelling pain moderate paresthesias). ,3
+ The Harm is probably (thrombophlebitis pain mild). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (mild to moderate respiratory distress). ,3
+ The Harm is probably (moderate toxic effects such as seizures abdominal pain). ,3
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (mild toxic effects such as fatigue sleepiness headaches eye irritation skin rashes). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (mild to moderate respiratory distress). ,3
+ The Harm is probably (moderate toxic effects such as seizures abdominal pain). ,3
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (mild toxic effects such as fatigue sleepiness headaches eye irritation skin rashes). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (mild to moderate respiratory distress). ,3
+ The Harm is probably (moderate toxic effects such as seizures abdominal pain). ,3
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (mild toxic effects such as fatigue sleepiness headaches eye irritation skin rashes). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (mild to moderate respiratory distress). ,3
+ The Harm is probably (moderate toxic effects such as seizures abdominal pain). ,3
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (mild toxic effects such as fatigue sleepiness headaches eye irritation skin rashes). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (mild to moderate respiratory distress). ,3
+ The Harm is probably (moderate toxic effects such as seizures abdominal pain). ,3
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (mild toxic effects such as fatigue sleepiness headaches eye irritation skin rashes). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (moderate toxic effects such as seizures abdominal pain). ,3
+ The Harm is probably (mild toxic effects such as fatigue sleepiness headaches eye irritation skin rashes). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (moderate toxic effects such as seizures abdominal pain). ,3
+ The Harm is probably (mild toxic effects such as fatigue sleepiness headaches eye irritation skin rashes). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest(cardiac arrest)). ,5
+ The Harm is probably (stroke). ,4
+ The Harm is probably (organ injury or failure). ,4
+ The Harm is probably (pulmonary embolism). ,4
+ The Harm is probably (severe respiratory distress). ,4
+ The Harm is probably (severe hypertension). ,4
+ The Harm is probably (severe hypotension). ,4
+ The Harm is probably (severe hyperglycemia). ,4
+ The Harm is probably (hypoglycemia). ,4
+ The Harm is probably (mild to moderate respiratory distress). ,3
+ The Harm is probably (mild to moderate hypertension). ,3
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (moderate hyperglycemia). ,3
+ The Harm is probably (moderate hypoglycemia). ,3
+ The Harm is probably (mild hyperglycemia). ,2
+ The Harm is probably (mild hypoglycemia). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (septic shock). ,4
+ The Harm is probably (organ injury). ,4
+ The Harm is probably (bacteremia). ,3
+ The Harm is probably (moderate pain). ,3
+ The Harm is probably (mild phlebitis local reaction/ infection). ,2
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (septic shock). ,4
+ The Harm is probably (organ injury). ,4
+ The Harm is probably (bacteremia). ,3
+ The Harm is probably (moderate pain). ,3
+ The Harm is probably (mild phlebitis local reaction/ infection). ,2
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (septic shock). ,4
+ The Harm is probably (organ injury). ,4
+ The Harm is probably (bacteremia). ,3
+ The Harm is probably (moderate pain). ,3
+ The Harm is probably (mild phlebitis local reaction/ infection). ,2
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (septic shock). ,4
+ The Harm is probably (organ injury). ,4
+ The Harm is probably (bacteremia). ,3
+ The Harm is probably (moderate pain). ,3
+ The Harm is probably (mild phlebitis local reaction/ infection). ,2
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (septic shock). ,4
+ The Harm is probably (organ injury). ,4
+ The Harm is probably (bacteremia). ,3
+ The Harm is probably (moderate pain). ,3
+ The Harm is probably (mild phlebitis local reaction/ infection). ,2
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (septic shock). ,4
+ The Harm is probably (organ injury). ,4
+ The Harm is probably (bacteremia). ,3
+ The Harm is probably (moderate pain). ,3
+ The Harm is probably (mild phlebitis). ,2
+ The Harm is probably (local reaction/ infection). ,2
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (septic shock). ,4
+ The Harm is probably (organ injury). ,4
+ The Harm is probably (bacteremia). ,3
+ The Harm is probably (moderate pain). ,3
+ The Harm is probably (mild phlebitis). ,2
+ The Harm is probably (local reaction/ infection). ,2
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (septic shock). ,4
+ The Harm is probably (organ injury). ,4
+ The Harm is probably (bacteremia). ,3
+ The Harm is probably (moderate pain). ,3
+ The Harm is probably (mild phlebitis). ,2
+ The Harm is probably (local reaction/ infection). ,2
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (septic shock). ,4
+ The Harm is probably (organ injury). ,4
+ The Harm is probably (bacteremia). ,3
+ The Harm is probably (moderate pain). ,3
+ The Harm is probably (mild phlebitis). ,2
+ The Harm is probably (local reaction/ infection). ,2
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (septic shock). ,4
+ The Harm is probably (organ injury). ,4
+ The Harm is probably (bacteremia). ,3
+ The Harm is probably (moderate pain). ,3
+ The Harm is probably (mild phlebitis). ,2
+ The Harm is probably (local reaction/ infection). ,2
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (septic shock). ,4
+ The Harm is probably (organ injury). ,4
+ The Harm is probably (bacteremia). ,3
+ The Harm is probably (moderate pain). ,3
+ The Harm is probably (mild phlebitis). ,2
+ The Harm is probably (local reaction/ infection). ,2
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death cardiopulmonary arrest). ,5
+ The Harm is probably (septic shock organ injury). ,4
+ The Harm is probably (bacteremia cellulitis moderate organ inflammation (reversible)). ,3
+ The Harm is probably (cellulitis mild). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death cardiopulmonary arrest). ,5
+ The Harm is probably (septic shock organ injury). ,4
+ The Harm is probably (bacteremia cellulitis moderate organ inflammation (reversible)). ,3
+ The Harm is probably (cellulitis mild). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death cardiopulmonary arrest). ,5
+ The Harm is probably (septic shock organ injury). ,4
+ The Harm is probably (bacteremia cellulitis moderate organ inflammation (reversible)). ,3
+ The Harm is probably (cellulitis mild). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death cardiopulmonary arrest). ,5
+ The Harm is probably (septic shock organ injury). ,4
+ The Harm is probably (bacteremia cellulitis moderate organ inflammation (reversible)). ,3
+ The Harm is probably (cellulitis mild). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (septic). ,4
+ The Harm is probably (shock). ,4
+ The Harm is probably (organ injury). ,4
+ The Harm is probably (bacteremia). ,3
+ The Harm is probably (moderate cellulitis). ,3
+ The Harm is probably (organ inflammation (reversible)). ,3
+ The Harm is probably (mild cellulitis). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (septic). ,4
+ The Harm is probably (shock). ,4
+ The Harm is probably (organ injury). ,4
+ The Harm is probably (bacteremia). ,3
+ The Harm is probably (moderate cellulitis). ,3
+ The Harm is probably (organ inflammation (reversible)). ,3
+ The Harm is probably (mild cellulitis). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (systemic infection from virus bacteria or other infectious agents). ,3
+ The Harm is probably (mild cellulitis). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (systemic infection from virus bacteria or other infectious agents). ,3
+ The Harm is probably (mild cellulitis). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (systemic infection from virus bacteria or other infectious agents). ,3
+ The Harm is probably (mild cellulitis). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (systemic infection from virus bacteria or other infectious agents). ,3
+ The Harm is probably (mild cellulitis). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (systemic infection from virus bacteria or other infectious agents). ,3
+ The Harm is probably (mild cellulitis). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (systemic infection from virus bacteria or other infectious agents). ,3
+ The Harm is probably (mild cellulitis). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (infections from viral bacteria protozoan and other infectious agents). ,3
+ The Harm is probably (infections from viral bacteria protozoan and other infectious agents). ,3
+ The Harm is probably (infections from viral bacteria protozoan and other infectious agents). ,3
+ The Harm is probably (infections from viral bacteria protozoan and other infectious agents). ,3
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (head trauma with cns). ,4
+ The Harm is probably (injury). ,4
+ The Harm is probably (fracture sprain strain laceration). ,3
+ The Harm is probably (moderate pain). ,3
+ The Harm is probably (bruise). ,2
+ The Harm is probably (scrape). ,2
+ The Harm is probably (skin abrasion). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (head trauma with cns). ,4
+ The Harm is probably (injury). ,4
+ The Harm is probably (fracture sprain strain laceration). ,3
+ The Harm is probably (moderate pain). ,3
+ The Harm is probably (bruise). ,2
+ The Harm is probably (scrape). ,2
+ The Harm is probably (skin abrasion). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (head trauma with cns). ,4
+ The Harm is probably (injury). ,4
+ The Harm is probably (fracture sprain strain laceration). ,3
+ The Harm is probably (moderate pain). ,3
+ The Harm is probably (bruise). ,2
+ The Harm is probably (scrape). ,2
+ The Harm is probably (skin abrasion). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (head trauma with cns). ,4
+ The Harm is probably (injury). ,4
+ The Harm is probably (fracture sprain strain laceration). ,3
+ The Harm is probably (moderate pain). ,3
+ The Harm is probably (bruise). ,2
+ The Harm is probably (scrape). ,2
+ The Harm is probably (skin abrasion). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (head trauma with cns). ,4
+ The Harm is probably (injury). ,4
+ The Harm is probably (fracture sprain strain laceration). ,3
+ The Harm is probably (moderate pain). ,3
+ The Harm is probably (bruise). ,2
+ The Harm is probably (scrape). ,2
+ The Harm is probably (skin abrasion). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (head trauma with cns). ,4
+ The Harm is probably (injury). ,4
+ The Harm is probably (fracture sprain strain laceration). ,3
+ The Harm is probably (moderate pain). ,3
+ The Harm is probably (bruise). ,2
+ The Harm is probably (scrape). ,2
+ The Harm is probably (skin abrasion). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (head trauma with cns). ,4
+ The Harm is probably (injury). ,4
+ The Harm is probably (fracture sprain strain laceration). ,3
+ The Harm is probably (moderate pain). ,3
+ The Harm is probably (bruise). ,2
+ The Harm is probably (scrape). ,2
+ The Harm is probably (skin abrasion). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (edema local tissue necrosis pain severe). ,4
+ The Harm is probably (hematoma edema pain moderate). ,3
+ The Harm is probably (burning sensation edema pain mild). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (edema local tissue necrosis pain severe). ,4
+ The Harm is probably (hematoma edema pain moderate). ,3
+ The Harm is probably (burning sensation edema pain mild). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (edema local tissue necrosis pain severe). ,4
+ The Harm is probably (hematoma edema pain moderate). ,3
+ The Harm is probably (burning sensation edema pain mild). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (skin abrasion). ,2
+ The Harm is probably (mild bruising pain). ,2
+ The Harm is probably (compromised skin integrity). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (skin abrasion). ,2
+ The Harm is probably (mild bruising pain). ,2
+ The Harm is probably (compromised skin integrity). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (hematoma). ,3
+ The Harm is probably (moderate pain). ,3
+ The Harm is probably (skin irritation). ,3
+ The Harm is probably (bruising). ,3
+ The Harm is probably (mild to moderate cellulitis). ,3
+ The Harm is probably (hematoma). ,2
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (hematoma). ,3
+ The Harm is probably (moderate pain). ,3
+ The Harm is probably (skin irritation). ,3
+ The Harm is probably (bruising). ,3
+ The Harm is probably (mild to moderate cellulitis). ,3
+ The Harm is probably (hematoma). ,2
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (mild to moderate anemia). ,3
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (congestive). ,3
+ The Harm is probably (heart failure). ,3
+ The Harm is probably (mild to moderate hyperkalemia). ,3
+ The Harm is probably (transient hematuria). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (pulmonary embolism). ,4
+ The Harm is probably (septic shock). ,4
+ The Harm is probably (severe hyperglycemia). ,4
+ The Harm is probably (severe hypoglycemia). ,4
+ The Harm is probably (severe hypertension). ,4
+ The Harm is probably (severe hypotension). ,4
+ The Harm is probably (severe arrhythmia). ,4
+ The Harm is probably (severe pain). ,4
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (moderate hyperglycemia). ,3
+ The Harm is probably (moderate hypoglycemia). ,3
+ The Harm is probably (moderate pain). ,3
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (mild hyperglycemia). ,2
+ The Harm is probably (mild hypoglycemia). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (pulmonary embolism). ,4
+ The Harm is probably (septic shock). ,4
+ The Harm is probably (severe hyperglycemia). ,4
+ The Harm is probably (severe hypoglycemia). ,4
+ The Harm is probably (severe hypertension). ,4
+ The Harm is probably (severe hypotension). ,4
+ The Harm is probably (severe arrhythmia). ,4
+ The Harm is probably (severe pain). ,4
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (moderate hyperglycemia). ,3
+ The Harm is probably (moderate hypoglycemia). ,3
+ The Harm is probably (moderate pain). ,3
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (mild hyperglycemia). ,2
+ The Harm is probably (mild hypoglycemia). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (pulmonary embolism). ,4
+ The Harm is probably (septic shock). ,4
+ The Harm is probably (severe hyperglycemia). ,4
+ The Harm is probably (severe hypoglycemia). ,4
+ The Harm is probably (severe hypertension). ,4
+ The Harm is probably (severe hypotension). ,4
+ The Harm is probably (severe arrhythmia). ,4
+ The Harm is probably (severe pain). ,4
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (moderate hyperglycemia). ,3
+ The Harm is probably (moderate hypoglycemia). ,3
+ The Harm is probably (moderate pain). ,3
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (mild hyperglycemia). ,2
+ The Harm is probably (mild hypoglycemia). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (pulmonary embolism). ,4
+ The Harm is probably (septic shock). ,4
+ The Harm is probably (severe hyperglycemia). ,4
+ The Harm is probably (severe hypoglycemia). ,4
+ The Harm is probably (severe hypertension). ,4
+ The Harm is probably (severe hypotension). ,4
+ The Harm is probably (severe arrhythmia). ,4
+ The Harm is probably (severe pain). ,4
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (moderate hyperglycemia). ,3
+ The Harm is probably (moderate hypoglycemia). ,3
+ The Harm is probably (moderate pain). ,3
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (mild hyperglycemia). ,2
+ The Harm is probably (mild hypoglycemia). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (pulmonary embolism). ,4
+ The Harm is probably (septic shock). ,4
+ The Harm is probably (severe hyperglycemia). ,4
+ The Harm is probably (severe hypoglycemia). ,4
+ The Harm is probably (severe hypertension). ,4
+ The Harm is probably (severe hypotension). ,4
+ The Harm is probably (severe arrhythmia). ,4
+ The Harm is probably (severe pain). ,4
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (moderate hyperglycemia). ,3
+ The Harm is probably (moderate hypoglycemia). ,3
+ The Harm is probably (moderate pain). ,3
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (mild hyperglycemia). ,2
+ The Harm is probably (mild hypoglycemia). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (pulmonary embolism). ,4
+ The Harm is probably (septic shock). ,4
+ The Harm is probably (severe hyperglycemia). ,4
+ The Harm is probably (severe hypoglycemia). ,4
+ The Harm is probably (severe hypertension). ,4
+ The Harm is probably (severe hypotension). ,4
+ The Harm is probably (severe arrhythmia). ,4
+ The Harm is probably (severe pain). ,4
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (moderate hyperglycemia). ,3
+ The Harm is probably (moderate hypoglycemia). ,3
+ The Harm is probably (moderate pain). ,3
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (mild hyperglycemia). ,2
+ The Harm is probably (mild hypoglycemia). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (pulmonary embolism). ,4
+ The Harm is probably (septic shock). ,4
+ The Harm is probably (severe hyperglycemia). ,4
+ The Harm is probably (severe hypoglycemia). ,4
+ The Harm is probably (severe hypertension). ,4
+ The Harm is probably (severe hypotension). ,4
+ The Harm is probably (severe arrhythmia). ,4
+ The Harm is probably (severe pain). ,4
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (moderate hyperglycemia). ,3
+ The Harm is probably (moderate hypoglycemia). ,3
+ The Harm is probably (moderate pain). ,3
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (mild hyperglycemia). ,2
+ The Harm is probably (mild hypoglycemia). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (pulmonary embolism). ,4
+ The Harm is probably (septic shock). ,4
+ The Harm is probably (severe hyperglycemia). ,4
+ The Harm is probably (severe hypoglycemia). ,4
+ The Harm is probably (severe hypertension). ,4
+ The Harm is probably (severe hypotension). ,4
+ The Harm is probably (severe arrhythmia). ,4
+ The Harm is probably (severe pain). ,4
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (moderate hyperglycemia). ,3
+ The Harm is probably (moderate hypoglycemia). ,3
+ The Harm is probably (moderate pain). ,3
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (mild hyperglycemia). ,2
+ The Harm is probably (mild hypoglycemia). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (pulmonary embolism). ,4
+ The Harm is probably (septic shock). ,4
+ The Harm is probably (severe hyperglycemia). ,4
+ The Harm is probably (severe hypoglycemia). ,4
+ The Harm is probably (severe hypertension). ,4
+ The Harm is probably (severe hypotension). ,4
+ The Harm is probably (severe arrhythmia). ,4
+ The Harm is probably (severe pain). ,4
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (moderate hyperglycemia). ,3
+ The Harm is probably (moderate hypoglycemia). ,3
+ The Harm is probably (moderate pain). ,3
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (mild hyperglycemia). ,2
+ The Harm is probably (mild hypoglycemia). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (pulmonary embolism). ,4
+ The Harm is probably (septic shock). ,4
+ The Harm is probably (severe hyperglycemia). ,4
+ The Harm is probably (severe hypoglycemia). ,4
+ The Harm is probably (severe hypertension). ,4
+ The Harm is probably (severe hypotension). ,4
+ The Harm is probably (severe arrhythmia). ,4
+ The Harm is probably (severe pain). ,4
+ The Harm is probably (mild to moderate arrhythmia). ,3
+ The Harm is probably (moderate hyperglycemia). ,3
+ The Harm is probably (moderate hypoglycemia). ,3
+ The Harm is probably (mild to moderate hypertension). ,3
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (moderate pain). ,3
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (mild hyperglycemia). ,2
+ The Harm is probably (mild hypoglycemia). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (pulmonary embolism). ,4
+ The Harm is probably (septic shock). ,4
+ The Harm is probably (severe hyperglycemia). ,4
+ The Harm is probably (severe hypoglycemia). ,4
+ The Harm is probably (severe hypertension). ,4
+ The Harm is probably (severe hypotension). ,4
+ The Harm is probably (severe arrhythmia). ,4
+ The Harm is probably (severe pain). ,4
+ The Harm is probably (mild to moderate arrhythmia). ,3
+ The Harm is probably (moderate hyperglycemia). ,3
+ The Harm is probably (moderate hypoglycemia). ,3
+ The Harm is probably (mild to moderate hypertension). ,3
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (moderate pain). ,3
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (mild hyperglycemia). ,2
+ The Harm is probably (mild hypoglycemia). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death). ,5
+ The Harm is probably (cardiopulmonary arrest). ,5
+ The Harm is probably (pulmonary embolism). ,4
+ The Harm is probably (septic shock). ,4
+ The Harm is probably (severe hyperglycemia). ,4
+ The Harm is probably (severe hypoglycemia). ,4
+ The Harm is probably (severe hypertension). ,4
+ The Harm is probably (severe hypotension). ,4
+ The Harm is probably (severe arrhythmia). ,4
+ The Harm is probably (severe pain). ,4
+ The Harm is probably (mild to moderate arrhythmia). ,3
+ The Harm is probably (moderate hyperglycemia). ,3
+ The Harm is probably (moderate hypoglycemia). ,3
+ The Harm is probably (mild to moderate hypertension). ,3
+ The Harm is probably (mild to moderate hypotension). ,3
+ The Harm is probably (moderate pain). ,3
+ The Harm is probably (mild pain). ,2
+ The Harm is probably (mild hyperglycemia). ,2
+ The Harm is probably (mild hypoglycemia). ,2
+ The Harm is probably (temporary discomfort). ,1
+ The Harm is probably (death cardiopulmonary arrest). ,5
+ The Harm is probably (hypoxic organ injury respiratory distress-severe). ,4
+ The Harm is probably (esophageal or respiratory airway obstruction gastric foreign body). ,3
+ The Harm is probably (coughing or gagging). ,2
+ The Harm is probably (temporary discomfort). ,1
